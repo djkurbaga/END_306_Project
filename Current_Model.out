@@ -1,0 +1,2262 @@
+
+                                      ARENA Simulation Results
+                                              ResatEfe
+
+                                  Summary for Replication 1 of 10
+
+Project: Unnamed Project                                             Run execution date :11/26/2026
+Analyst: ResatEfe                                                    Model revision date:11/26/2026
+
+Replication ended at time      : 345600.0 Seconds 
+Statistics were cleared at time: 57600.0 Seconds (Thursday, November 26, 2026, 00:00:00)
+Statistics accumulated for time: 288000.0 Seconds
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TIS_A300                                    5056.8     95.973     4508.4     6116.6       1495    
+TIS_A200                                    5025.4     79.167     4467.5     6099.6       2141    
+TIS_A100                                    5024.5     88.698     4467.7     6010.8        888    
+A300.VATime                                 283.51     2.7621     233.46     648.45       1495    
+A300.NVATime                                118.30     1.8059     .00000     129.00       1495    
+A300.WaitTime                               4534.9     94.129     3942.2     5619.0       1495    
+A300.TranTime                               120.00     2.6578E-04 119.94     120.03       1495    
+A300.OtherTime                              .08701     .08727     .00000     38.885       1495    
+A300.TotalTime                              5056.8     95.973     4508.4     6116.6       1495    
+A200.VATime                                 272.04     1.7122     220.61     501.59       2141    
+A200.NVATime                                67.392     1.9366     .00000     96.000       2141    
+A200.WaitTime                               4565.6     78.227     3895.9     5616.6       2141    
+A200.TranTime                               120.00     3.1979E-04 119.96     120.04       2141    
+A200.OtherTime                              .40285     .13462     .00000     34.889       2141    
+A200.TotalTime                              5025.4     79.167     4467.5     6099.6       2141    
+A100.VATime                                 287.00     2.3385     231.68     580.81        888    
+A100.NVATime                                151.31     .85712     .00000     152.00        888    
+A100.WaitTime                               4465.9     88.278     3884.5     5459.5        888    
+A100.TranTime                               120.00     4.5554E-04 119.96     120.04        888    
+A100.OtherTime                              .21317     .16228     .00000     27.807        888    
+A100.TotalTime                              5024.5     88.698     4467.7     6010.8        888    
+Seize WC8.Queue.WaitingTime                 27.708     4.9433     .00000     434.23       4523    
+Seize Pallet.Queue.WaitingTime              2485.3     42.839     2123.3     3437.7       4524    
+Access from C8.Queue.WaitingTime            .55339     .01992     .00000     1.6315       4522    
+Seize Buffer6.Queue.WaitingTime             .00000     .00000     .00000     .00000       4522    
+Seize Buffer2.Queue.WaitingTime             5.0961     1.0261     .00000     343.70       4522    
+Seize WC1.Queue.WaitingTime                 486.44     10.493     201.13     1171.2       4522    
+Seize Buffer5.Queue.WaitingTime             .32162     .29388     .00000     67.470       4519    
+Seize WC4.Queue.WaitingTime                 413.72     20.332     .00000     1188.2       4519    
+Seize WC3.Queue.WaitingTime                 492.74     9.0831     247.00     1212.4       4520    
+Seize Buffer3.Queue.WaitingTime             28.329     1.0956     .00000     365.09       4520    
+Seize Buffer1.Queue.WaitingTime             26.788     2.7238     .00000     374.70       4522    
+Seize WC6.Queue.WaitingTime                 5.3807     .29956     .00000     34.606       4523    
+Seize WC2.Queue.WaitingTime                 414.24     24.552     40.333     1171.2       4520    
+Seize InputConveyor.Queue.WaitingTime       .00000     .00000     .00000     .00000       4525    
+Seize Buffer8.Queue.WaitingTime             .00000     .00000     .00000     .00000       4524    
+Seize Buffer4.Queue.WaitingTime             8.2301     1.1409     .00000     351.70       4520    
+Seize WC7.Queue.WaitingTime                 2.0899     .20591     .00000     42.138       4524    
+Seize Buffer7.Queue.WaitingTime             .00000     .00000     .00000     .00000       4523    
+Seize WC5.Queue.WaitingTime                 132.43     26.759     .00000     505.60       4522    
+Access from WC7.Queue.WaitingTime           .55970     .01997     .00000     1.6314       4524    
+Access from WC6.Queue.WaitingTime           .62020     .01788     .00000     1.6319       4523    
+Access from WC5.Queue.WaitingTime           .60996     .01954     .00000     1.6331       4522    
+Access from WC4.Queue.WaitingTime           .58423     .02364     .00000     3.1135       4519    
+Access from WC3.Queue.WaitingTime           .56279     .02012     .00000     1.6327       4520    
+Access from WC2.Queue.WaitingTime           .57465     .01986     .00000     1.6327       4520    
+Access from WC1.Queue.WaitingTime           .58218     .01841     .00000     1.6313       4522    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ConvContent                                 39.450     .01402     37.000     40.000     40.000    
+A300.WIP                                    26.187     .48805     20.000     34.000     27.000    
+A200.WIP                                    37.342     (Corr)     29.000     46.000     38.000    
+A100.WIP                                    15.493     .60629     8.0000     23.000     14.000    
+Cell3.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell3.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell3.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell2.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell2.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell2.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell1.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell1.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell1.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell7.NumberBusy                            .51964     .00935     .00000     1.0000     .00000    
+Cell7.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell7.Utilization                           .51964     .00935     .00000     1.0000     .00000    
+Cell6.NumberBusy                            .75237     .01216     .00000     1.0000     1.0000    
+Cell6.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell6.Utilization                           .75237     .01216     .00000     1.0000     1.0000    
+Cell5.NumberBusy                            .92617     .01515     .00000     1.0000     1.0000    
+Cell5.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell5.Utilization                           .92617     .01515     .00000     1.0000     1.0000    
+Cell4.NumberBusy                            .99996     (Insuf)    .00000     1.0000     1.0000    
+Cell4.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell4.Utilization                           .99996     (Insuf)    .00000     1.0000     1.0000    
+Cell8.NumberBusy                            .83958     .03546     .00000     1.0000     1.0000    
+Cell8.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell8.Utilization                           .83958     .03546     .00000     1.0000     1.0000    
+Buffer5.NumberBusy                          2.3232     .42155     .00000     8.0000     .00000    
+Buffer5.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer5.Utilization                         .29041     .05269     .00000     1.0000     .00000    
+Buffer4.NumberBusy                          6.7393     .21468     .00000     8.0000     8.0000    
+Buffer4.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer4.Utilization                         .84242     .02683     .00000     1.0000     1.0000    
+Buffer7.NumberBusy                          .27816     .00697     .00000     2.0000     .00000    
+Buffer7.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer7.Utilization                         .03477     8.7176E-04 .00000     .25000     .00000    
+Buffer6.NumberBusy                          .32964     .00853     .00000     2.0000     .00000    
+Buffer6.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer6.Utilization                         .04121     .00107     .00000     .25000     .00000    
+Buffer1.NumberBusy                          7.8833     .06689     3.0000     8.0000     8.0000    
+Buffer1.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer1.Utilization                         .98541     .00836     .37500     1.0000     1.0000    
+Buffer3.NumberBusy                          7.9798     .00285     7.0000     8.0000     8.0000    
+Buffer3.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer3.Utilization                         .99748     3.5585E-04 .87500     1.0000     1.0000    
+Buffer2.NumberBusy                          6.7491     .28270     .00000     8.0000     8.0000    
+Buffer2.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer2.Utilization                         .84364     .03534     .00000     1.0000     1.0000    
+Buffer8.NumberBusy                          .24442     .00436     .00000     1.0000     .00000    
+Buffer8.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer8.Utilization                         .03055     5.4454E-04 .00000     .12500     .00000    
+Pallet.NumberBusy                           40.000     (Insuf)    39.000     40.000     40.000    
+Pallet.NumberScheduled                      40.000     (Insuf)    40.000     40.000     40.000    
+Pallet.Utilization                          1.0000     (Insuf)    .97500     1.0000     1.0000    
+InputConveyor.NumberBusy                    39.450     .01402     37.000     40.000     40.000    
+InputConveyor.NumberScheduled               40.000     (Insuf)    40.000     40.000     40.000    
+InputConveyor.Utilization                   .98626     3.5046E-04 .92500     1.0000     1.0000    
+Seize WC8.Queue.NumberInQueue               .43520     .07309     .00000     3.0000     1.0000    
+Seize Pallet.Queue.NumberInQueue            39.015     .07319     36.000     40.000     39.000    
+Access from C8.Queue.NumberInQueue          .00869     3.6559E-04 .00000     1.0000     .00000    
+Seize Buffer6.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer2.Queue.NumberInQueue           .08002     .01567     .00000     1.0000     .00000    
+Seize WC1.Queue.NumberInQueue               7.6390     .06803     3.0000     8.0000     8.0000    
+Seize Buffer5.Queue.NumberInQueue           .00505     (Insuf)    .00000     1.0000     .00000    
+Seize WC4.Queue.NumberInQueue               6.4950     .21767     .00000     8.0000     8.0000    
+Seize WC3.Queue.NumberInQueue               7.7354     .00659     6.0000     8.0000     8.0000    
+Seize Buffer3.Queue.NumberInQueue           .44462     .00975     .00000     1.0000     1.0000    
+Seize Buffer1.Queue.NumberInQueue           .42066     .03740     .00000     1.0000     1.0000    
+Seize WC6.Queue.NumberInQueue               .08450     .00501     .00000     1.0000     .00000    
+Seize WC2.Queue.NumberInQueue               6.5044     .28541     .00000     8.0000     8.0000    
+Seize InputConveyor.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer8.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer4.Queue.NumberInQueue           .12921     .01622     .00000     1.0000     1.0000    
+Seize WC7.Queue.NumberInQueue               .03283     .00360     .00000     2.0000     .00000    
+Seize Buffer7.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize WC5.Queue.NumberInQueue               2.0786     .41827     .00000     8.0000     .00000    
+Access from WC7.Queue.NumberInQueue         .00879     3.9481E-04 .00000     1.0000     .00000    
+Access from WC6.Queue.NumberInQueue         .00974     3.4505E-04 .00000     1.0000     .00000    
+Access from WC5.Queue.NumberInQueue         .00958     4.2587E-04 .00000     1.0000     .00000    
+Access from WC4.Queue.NumberInQueue         .00917     4.5153E-04 .00000     2.0000     .00000    
+Access from WC3.Queue.NumberInQueue         .00883     3.8917E-04 .00000     1.0000     .00000    
+Access from WC2.Queue.NumberInQueue         .00902     3.8341E-04 .00000     1.0000     .00000    
+Access from WC1.Queue.NumberInQueue         .00914     (Corr)     .00000     1.0000     .00000    
+PalletLoop.Utilization                      .02617     4.4185E-04 .00000     .11111     .00000    
+PalletLoop.LengthAccumulated                .00000     (Insuf)    .00000     14.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Lost_A300                                       906  Infinite
+Lost_A100                                       826  Infinite
+Lost_A200                                      1288  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+WeeklyLostCost                              2459.4    
+LostParts                                   3020.0    
+A300.NumberIn                               2401.0    
+A300.NumberOut                              2401.0    
+A200.NumberIn                               3429.0    
+A200.NumberOut                              3429.0    
+A100.NumberIn                               1715.0    
+A100.NumberOut                              1714.0    
+Cell3.NumberSeized                          4520.0    
+Cell3.ScheduledUtilization                  1.0000    
+Cell2.NumberSeized                          4520.0    
+Cell2.ScheduledUtilization                  1.0000    
+Cell1.NumberSeized                          4522.0    
+Cell1.ScheduledUtilization                  1.0000    
+Cell7.NumberSeized                          4524.0    
+Cell7.ScheduledUtilization                  .51964    
+Cell6.NumberSeized                          4523.0    
+Cell6.ScheduledUtilization                  .75237    
+Cell5.NumberSeized                          4522.0    
+Cell5.ScheduledUtilization                  .92617    
+Cell4.NumberSeized                          4519.0    
+Cell4.ScheduledUtilization                  .99996    
+Cell8.NumberSeized                          4523.0    
+Cell8.ScheduledUtilization                  .83958    
+Buffer5.NumberSeized                        4519.0    
+Buffer5.ScheduledUtilization                .29041    
+Buffer4.NumberSeized                        4520.0    
+Buffer4.ScheduledUtilization                .84242    
+Buffer7.NumberSeized                        4523.0    
+Buffer7.ScheduledUtilization                .03477    
+Buffer6.NumberSeized                        4522.0    
+Buffer6.ScheduledUtilization                .04121    
+Buffer1.NumberSeized                        4522.0    
+Buffer1.ScheduledUtilization                .98541    
+Buffer3.NumberSeized                        4520.0    
+Buffer3.ScheduledUtilization                .99748    
+Buffer2.NumberSeized                        4522.0    
+Buffer2.ScheduledUtilization                .84364    
+Buffer8.NumberSeized                        4524.0    
+Buffer8.ScheduledUtilization                .03055    
+Pallet.NumberSeized                         4524.0    
+Pallet.ScheduledUtilization                 1.0000    
+InputConveyor.NumberSeized                  4525.0    
+InputConveyor.ScheduledUtilization          .98626    
+System.NumberOut                            4524.0    
+
+Beginning replication 2 of 10
+
+                                      ARENA Simulation Results
+                                              ResatEfe
+
+                                  Summary for Replication 2 of 10
+
+Project: Unnamed Project                                             Run execution date :11/26/2026
+Analyst: ResatEfe                                                    Model revision date:11/26/2026
+
+Replication ended at time      : 345600.0 Seconds 
+Statistics were cleared at time: 57600.0 Seconds (Thursday, November 26, 2026, 00:00:00)
+Statistics accumulated for time: 288000.0 Seconds
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TIS_A300                                    5080.5     63.408     4289.0     6188.9       1463    
+TIS_A200                                    5053.2     61.006     4269.5     6159.7       2122    
+TIS_A100                                    5064.9     60.339     4307.3     6118.5        905    
+A300.VATime                                 283.19     2.4341     234.31     589.45       1463    
+A300.NVATime                                121.24     1.5016     .00000     129.00       1463    
+A300.WaitTime                               4555.9     62.573     3746.1     5695.2       1463    
+A300.TranTime                               120.00     4.5964E-04 119.96     120.05       1463    
+A300.OtherTime                              .08241     .10322     .00000     37.971       1463    
+A300.TotalTime                              5080.5     63.408     4289.0     6188.9       1463    
+A200.VATime                                 273.17     1.2789     221.77     532.77       2122    
+A200.NVATime                                65.915     1.9055     .00000     96.000       2122    
+A200.WaitTime                               4593.7     60.393     3693.7     5731.0       2122    
+A200.TranTime                               120.00     3.2233E-04 119.96     120.05       2122    
+A200.OtherTime                              .42210     .13314     .00000     34.892       2122    
+A200.TotalTime                              5053.2     61.006     4269.5     6159.7       2122    
+A100.VATime                                 286.72     (Corr)     236.54     460.82        905    
+A100.NVATime                                150.82     .81225     .00000     152.00        905    
+A100.WaitTime                               4507.1     60.403     3750.8     5582.8        905    
+A100.TranTime                               120.00     6.2729E-04 119.96     120.04        905    
+A100.OtherTime                              .31235     .16552     .00000     29.234        905    
+A100.TotalTime                              5064.9     60.339     4307.3     6118.5        905    
+Seize WC8.Queue.WaitingTime                 31.507     5.2092     .00000     304.01       4491    
+Seize Pallet.Queue.WaitingTime              2500.0     (Corr)     2012.2     3476.5       4490    
+Access from C8.Queue.WaitingTime            .53245     .01798     .00000     1.6327       4491    
+Seize Buffer6.Queue.WaitingTime             .00000     .00000     .00000     .00000       4491    
+Seize Buffer2.Queue.WaitingTime             5.5256     .88327     .00000     255.18       4491    
+Seize WC1.Queue.WaitingTime                 493.42     7.6157     327.10     946.70       4491    
+Seize Buffer5.Queue.WaitingTime             .10006     .10807     .00000     47.449       4491    
+Seize WC4.Queue.WaitingTime                 419.81     14.415     .00000     978.36       4491    
+Seize WC3.Queue.WaitingTime                 496.36     7.6725     230.14     978.36       4491    
+Seize Buffer3.Queue.WaitingTime             28.783     .92702     .00000     297.02       4491    
+Seize Buffer1.Queue.WaitingTime             28.727     1.7234     .00000     283.90       4491    
+Seize WC6.Queue.WaitingTime                 4.8707     .23209     .00000     45.191       4490    
+Seize WC2.Queue.WaitingTime                 435.37     19.501     104.96     946.70       4491    
+Seize InputConveyor.Queue.WaitingTime       .00000     .00000     .00000     .00000       4492    
+Seize Buffer8.Queue.WaitingTime             .00000     .00000     .00000     .00000       4491    
+Seize Buffer4.Queue.WaitingTime             8.4000     .97502     .00000     308.18       4491    
+Seize WC7.Queue.WaitingTime                 2.1373     .19012     .00000     39.207       4491    
+Seize Buffer7.Queue.WaitingTime             .00000     .00000     .00000     .00000       4490    
+Seize WC5.Queue.WaitingTime                 105.56     17.384     .00000     500.00       4491    
+Access from WC7.Queue.WaitingTime           .57331     .01834     .00000     1.6331       4491    
+Access from WC6.Queue.WaitingTime           .62132     .01888     .00000     1.6328       4490    
+Access from WC5.Queue.WaitingTime           .58535     (Corr)     .00000     1.6332       4491    
+Access from WC4.Queue.WaitingTime           .56602     .01392     .00000     3.0255       4491    
+Access from WC3.Queue.WaitingTime           .54760     .02085     .00000     1.6333       4491    
+Access from WC2.Queue.WaitingTime           .55976     .02103     .00000     1.6325       4491    
+Access from WC1.Queue.WaitingTime           .54775     .01622     .00000     1.6327       4491    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ConvContent                                 39.463     .01212     37.000     40.000     40.000    
+A300.WIP                                    25.773     .44835     19.000     33.000     25.000    
+A200.WIP                                    37.268     .71192     29.000     49.000     36.000    
+A100.WIP                                    15.938     .62768     8.0000     24.000     19.000    
+Cell3.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell3.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell3.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell2.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell2.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell2.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell1.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell1.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell1.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell7.NumberBusy                            .51623     .00792     .00000     1.0000     .00000    
+Cell7.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell7.Utilization                           .51623     .00792     .00000     1.0000     .00000    
+Cell6.NumberBusy                            .74490     .01131     .00000     1.0000     1.0000    
+Cell6.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell6.Utilization                           .74490     .01131     .00000     1.0000     1.0000    
+Cell5.NumberBusy                            .92152     .01343     .00000     1.0000     1.0000    
+Cell5.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell5.Utilization                           .92152     .01343     .00000     1.0000     1.0000    
+Cell4.NumberBusy                            .99980     (Insuf)    .00000     1.0000     1.0000    
+Cell4.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell4.Utilization                           .99980     (Insuf)    .00000     1.0000     1.0000    
+Cell8.NumberBusy                            .86138     .02517     .00000     1.0000     1.0000    
+Cell8.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell8.Utilization                           .86138     .02517     .00000     1.0000     1.0000    
+Buffer5.NumberBusy                          1.8886     .29220     .00000     8.0000     3.0000    
+Buffer5.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer5.Utilization                         .23608     .03653     .00000     1.0000     .37500    
+Buffer4.NumberBusy                          6.7886     .17366     .00000     8.0000     4.0000    
+Buffer4.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer4.Utilization                         .84858     .02171     .00000     1.0000     .50000    
+Buffer7.NumberBusy                          .27691     .00571     .00000     2.0000     .00000    
+Buffer7.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer7.Utilization                         .03461     7.1409E-04 .00000     .25000     .00000    
+Buffer6.NumberBusy                          .31896     (Corr)     .00000     2.0000     1.0000    
+Buffer6.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer6.Utilization                         .03987     (Corr)     .00000     .25000     .12500    
+Buffer1.NumberBusy                          7.9358     .02447     5.0000     8.0000     8.0000    
+Buffer1.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer1.Utilization                         .99199     .00306     .62500     1.0000     1.0000    
+Buffer3.NumberBusy                          7.9822     .00321     6.0000     8.0000     8.0000    
+Buffer3.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer3.Utilization                         .99779     4.0118E-04 .75000     1.0000     1.0000    
+Buffer2.NumberBusy                          7.0308     .23332     2.0000     8.0000     8.0000    
+Buffer2.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer2.Utilization                         .87885     .02916     .25000     1.0000     1.0000    
+Buffer8.NumberBusy                          .24281     .00367     .00000     1.0000     1.0000    
+Buffer8.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer8.Utilization                         .03035     4.5837E-04 .00000     .12500     .12500    
+Pallet.NumberBusy                           40.000     (Insuf)    39.000     40.000     40.000    
+Pallet.NumberScheduled                      40.000     (Insuf)    40.000     40.000     40.000    
+Pallet.Utilization                          1.0000     (Insuf)    .97500     1.0000     1.0000    
+InputConveyor.NumberBusy                    39.463     .01212     37.000     40.000     40.000    
+InputConveyor.NumberScheduled               40.000     (Insuf)    40.000     40.000     40.000    
+InputConveyor.Utilization                   .98658     3.0292E-04 .92500     1.0000     1.0000    
+Seize WC8.Queue.NumberInQueue               .49119     .08353     .00000     4.0000     .00000    
+Seize Pallet.Queue.NumberInQueue            38.972     .08600     36.000     40.000     40.000    
+Access from C8.Queue.NumberInQueue          .00830     3.6938E-04 .00000     1.0000     .00000    
+Seize Buffer6.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer2.Queue.NumberInQueue           .08617     .01297     .00000     1.0000     .00000    
+Seize WC1.Queue.NumberInQueue               7.6937     .02543     5.0000     8.0000     7.0000    
+Seize Buffer5.Queue.NumberInQueue           .00156     (Insuf)    .00000     1.0000     .00000    
+Seize WC4.Queue.NumberInQueue               6.5462     .17515     .00000     8.0000     4.0000    
+Seize WC3.Queue.NumberInQueue               7.7396     .00616     6.0000     8.0000     8.0000    
+Seize Buffer3.Queue.NumberInQueue           .44884     .00844     .00000     1.0000     .00000    
+Seize Buffer1.Queue.NumberInQueue           .44795     .02591     .00000     1.0000     .00000    
+Seize WC6.Queue.NumberInQueue               .07594     .00440     .00000     1.0000     .00000    
+Seize WC2.Queue.NumberInQueue               6.7884     .23587     1.0000     8.0000     7.0000    
+Seize InputConveyor.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer8.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer4.Queue.NumberInQueue           .13099     .01396     .00000     1.0000     .00000    
+Seize WC7.Queue.NumberInQueue               .03333     .00300     .00000     2.0000     .00000    
+Seize Buffer7.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize WC5.Queue.NumberInQueue               1.6459     .28980     .00000     8.0000     2.0000    
+Access from WC7.Queue.NumberInQueue         .00894     3.6818E-04 .00000     1.0000     .00000    
+Access from WC6.Queue.NumberInQueue         .00969     3.8799E-04 .00000     1.0000     .00000    
+Access from WC5.Queue.NumberInQueue         .00913     3.6225E-04 .00000     1.0000     .00000    
+Access from WC4.Queue.NumberInQueue         .00883     2.9035E-04 .00000     2.0000     .00000    
+Access from WC3.Queue.NumberInQueue         .00854     3.9445E-04 .00000     1.0000     .00000    
+Access from WC2.Queue.NumberInQueue         .00873     4.1047E-04 .00000     1.0000     .00000    
+Access from WC1.Queue.NumberInQueue         .00854     3.6323E-04 .00000     1.0000     .00000    
+PalletLoop.Utilization                      .02599     3.8725E-04 .00000     .12500     .06944    
+PalletLoop.LengthAccumulated                .00000     (Insuf)    .00000     14.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Lost_A300                                       939  Infinite
+Lost_A100                                       808  Infinite
+Lost_A200                                      1306  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+WeeklyLostCost                              2482.3    
+LostParts                                   3053.0    
+A300.NumberIn                               2401.0    
+A300.NumberOut                              2402.0    
+A200.NumberIn                               3429.0    
+A200.NumberOut                              3428.0    
+A100.NumberIn                               1715.0    
+A100.NumberOut                              1713.0    
+Cell3.NumberSeized                          4491.0    
+Cell3.ScheduledUtilization                  1.0000    
+Cell2.NumberSeized                          4491.0    
+Cell2.ScheduledUtilization                  1.0000    
+Cell1.NumberSeized                          4491.0    
+Cell1.ScheduledUtilization                  1.0000    
+Cell7.NumberSeized                          4491.0    
+Cell7.ScheduledUtilization                  .51623    
+Cell6.NumberSeized                          4490.0    
+Cell6.ScheduledUtilization                  .74490    
+Cell5.NumberSeized                          4491.0    
+Cell5.ScheduledUtilization                  .92152    
+Cell4.NumberSeized                          4491.0    
+Cell4.ScheduledUtilization                  .99980    
+Cell8.NumberSeized                          4491.0    
+Cell8.ScheduledUtilization                  .86138    
+Buffer5.NumberSeized                        4491.0    
+Buffer5.ScheduledUtilization                .23608    
+Buffer4.NumberSeized                        4491.0    
+Buffer4.ScheduledUtilization                .84858    
+Buffer7.NumberSeized                        4490.0    
+Buffer7.ScheduledUtilization                .03461    
+Buffer6.NumberSeized                        4491.0    
+Buffer6.ScheduledUtilization                .03987    
+Buffer1.NumberSeized                        4491.0    
+Buffer1.ScheduledUtilization                .99199    
+Buffer3.NumberSeized                        4491.0    
+Buffer3.ScheduledUtilization                .99779    
+Buffer2.NumberSeized                        4491.0    
+Buffer2.ScheduledUtilization                .87885    
+Buffer8.NumberSeized                        4491.0    
+Buffer8.ScheduledUtilization                .03035    
+Pallet.NumberSeized                         4490.0    
+Pallet.ScheduledUtilization                 1.0000    
+InputConveyor.NumberSeized                  4492.0    
+InputConveyor.ScheduledUtilization          .98658    
+System.NumberOut                            4490.0    
+
+Beginning replication 3 of 10
+
+                                      ARENA Simulation Results
+                                              ResatEfe
+
+                                  Summary for Replication 3 of 10
+
+Project: Unnamed Project                                             Run execution date :11/26/2026
+Analyst: ResatEfe                                                    Model revision date:11/26/2026
+
+Replication ended at time      : 345600.0 Seconds 
+Statistics were cleared at time: 57600.0 Seconds (Thursday, November 26, 2026, 00:00:00)
+Statistics accumulated for time: 288000.0 Seconds
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TIS_A300                                    5013.4     81.745     4517.9     5993.0       1514    
+TIS_A200                                    4992.0     75.796     4473.7     6014.0       2155    
+TIS_A100                                    4984.2     (Corr)     4511.7     5958.3        881    
+A300.VATime                                 281.69     (Corr)     231.96     535.97       1514    
+A300.NVATime                                119.03     2.0343     .00000     129.00       1514    
+A300.WaitTime                               4492.5     81.014     3920.9     5474.1       1514    
+A300.TranTime                               120.00     4.3598E-04 119.96     120.04       1514    
+A300.OtherTime                              .17904     .13462     .00000     39.502       1514    
+A300.TotalTime                              5013.4     81.745     4517.9     5993.0       1514    
+A200.VATime                                 271.37     1.9240     220.98     495.68       2155    
+A200.NVATime                                67.534     1.7387     .00000     96.000       2155    
+A200.WaitTime                               4532.6     75.685     3951.7     5601.1       2155    
+A200.TranTime                               120.00     3.4014E-04 119.96     120.04       2155    
+A200.OtherTime                              .51092     .21604     .00000     34.737       2155    
+A200.TotalTime                              4992.0     75.796     4473.7     6014.0       2155    
+A100.VATime                                 287.85     3.2739     234.46     565.73        881    
+A100.NVATime                                150.79     .79625     .00000     152.00        881    
+A100.WaitTime                               4425.3     (Corr)     3840.6     5405.9        881    
+A100.TranTime                               120.00     4.9109E-04 119.96     120.04        881    
+A100.OtherTime                              .22021     .14478     .00000     29.374        881    
+A100.TotalTime                              4984.2     (Corr)     4511.7     5958.3        881    
+Seize WC8.Queue.WaitingTime                 27.007     5.5223     .00000     342.68       4551    
+Seize Pallet.Queue.WaitingTime              2470.2     39.246     2055.1     3132.2       4550    
+Access from C8.Queue.WaitingTime            .55467     (Corr)     .00000     1.6333       4551    
+Seize Buffer6.Queue.WaitingTime             .00000     .00000     .00000     .00000       4551    
+Seize Buffer2.Queue.WaitingTime             4.6793     1.0315     .00000     221.28       4551    
+Seize WC1.Queue.WaitingTime                 484.73     8.8752     314.96     945.45       4551    
+Seize Buffer5.Queue.WaitingTime             .36110     .37320     .00000     58.374       4555    
+Seize WC4.Queue.WaitingTime                 406.51     18.667     26.602     955.25       4555    
+Seize WC3.Queue.WaitingTime                 489.48     8.5965     248.00     955.25       4553    
+Seize Buffer3.Queue.WaitingTime             27.997     1.0188     .00000     267.43       4553    
+Seize Buffer1.Queue.WaitingTime             26.067     2.3542     .00000     242.28       4551    
+Seize WC6.Queue.WaitingTime                 5.4434     .32609     .00000     34.607       4551    
+Seize WC2.Queue.WaitingTime                 411.63     24.579     73.011     945.45       4553    
+Seize InputConveyor.Queue.WaitingTime       .00000     .00000     .00000     .00000       4552    
+Seize Buffer8.Queue.WaitingTime             .00000     .00000     .00000     .00000       4551    
+Seize Buffer4.Queue.WaitingTime             7.8534     1.1266     .00000     253.58       4553    
+Seize WC7.Queue.WaitingTime                 2.1522     .18885     .00000     34.092       4551    
+Seize Buffer7.Queue.WaitingTime             .00000     .00000     .00000     .00000       4550    
+Seize WC5.Queue.WaitingTime                 134.44     23.494     .00000     507.00       4551    
+Access from WC7.Queue.WaitingTime           .58190     .02165     .00000     1.6331       4551    
+Access from WC6.Queue.WaitingTime           .61916     .01288     .00000     1.6332       4550    
+Access from WC5.Queue.WaitingTime           .61539     .01905     .00000     1.6332       4551    
+Access from WC4.Queue.WaitingTime           .57585     .02252     .00000     2.7999       4555    
+Access from WC3.Queue.WaitingTime           .56422     .02083     .00000     1.6327       4553    
+Access from WC2.Queue.WaitingTime           .57909     .01944     .00000     1.6327       4553    
+Access from WC1.Queue.WaitingTime           .55925     .01736     .00000     1.6327       4551    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ConvContent                                 39.450     .01260     37.000     40.000     40.000    
+A300.WIP                                    26.408     (Corr)     20.000     33.000     30.000    
+A200.WIP                                    37.366     .55936     29.000     45.000     34.000    
+A100.WIP                                    15.258     .58648     9.0000     22.000     16.000    
+Cell3.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell3.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell3.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell2.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell2.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell2.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell1.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell1.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell1.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell7.NumberBusy                            .52155     (Corr)     .00000     1.0000     .00000    
+Cell7.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell7.Utilization                           .52155     (Corr)     .00000     1.0000     .00000    
+Cell6.NumberBusy                            .75849     (Corr)     .00000     1.0000     1.0000    
+Cell6.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell6.Utilization                           .75849     (Corr)     .00000     1.0000     1.0000    
+Cell5.NumberBusy                            .93329     (Corr)     .00000     1.0000     1.0000    
+Cell5.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell5.Utilization                           .93329     (Corr)     .00000     1.0000     1.0000    
+Cell4.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell4.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell4.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell8.NumberBusy                            .83155     .03609     .00000     1.0000     1.0000    
+Cell8.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell8.Utilization                           .83155     .03609     .00000     1.0000     1.0000    
+Buffer5.NumberBusy                          2.3728     .39905     .00000     8.0000     4.0000    
+Buffer5.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer5.Utilization                         .29661     .04988     .00000     1.0000     .50000    
+Buffer4.NumberBusy                          6.6681     .20485     .00000     8.0000     6.0000    
+Buffer4.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer4.Utilization                         .83352     .02561     .00000     1.0000     .75000    
+Buffer7.NumberBusy                          .28081     (Corr)     .00000     2.0000     .00000    
+Buffer7.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer7.Utilization                         .03510     (Corr)     .00000     .25000     .00000    
+Buffer6.NumberBusy                          .33277     .00810     .00000     2.0000     .00000    
+Buffer6.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer6.Utilization                         .04160     .00101     .00000     .25000     .00000    
+Buffer1.NumberBusy                          7.9015     .04189     5.0000     8.0000     8.0000    
+Buffer1.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer1.Utilization                         .98769     .00524     .62500     1.0000     1.0000    
+Buffer3.NumberBusy                          7.9795     .00268     6.0000     8.0000     8.0000    
+Buffer3.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer3.Utilization                         .99744     3.3510E-04 .75000     1.0000     1.0000    
+Buffer2.NumberBusy                          6.7468     .27444     1.0000     8.0000     6.0000    
+Buffer2.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer2.Utilization                         .84335     .03430     .12500     1.0000     .75000    
+Buffer8.NumberBusy                          .24622     (Corr)     .00000     1.0000     1.0000    
+Buffer8.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer8.Utilization                         .03078     (Corr)     .00000     .12500     .12500    
+Pallet.NumberBusy                           40.000     (Insuf)    39.000     40.000     40.000    
+Pallet.NumberScheduled                      40.000     (Insuf)    40.000     40.000     40.000    
+Pallet.Utilization                          1.0000     (Insuf)    .97500     1.0000     1.0000    
+InputConveyor.NumberBusy                    39.450     .01260     37.000     40.000     40.000    
+InputConveyor.NumberScheduled               40.000     (Insuf)    40.000     40.000     40.000    
+InputConveyor.Utilization                   .98625     3.1490E-04 .92500     1.0000     1.0000    
+Seize WC8.Queue.NumberInQueue               .42643     .09107     .00000     3.0000     .00000    
+Seize Pallet.Queue.NumberInQueue            39.023     .09214     35.000     40.000     40.000    
+Access from C8.Queue.NumberInQueue          .00876     3.6964E-04 .00000     1.0000     .00000    
+Seize Buffer6.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer2.Queue.NumberInQueue           .07394     .01500     .00000     1.0000     .00000    
+Seize WC1.Queue.NumberInQueue               7.6557     .04275     5.0000     8.0000     7.0000    
+Seize Buffer5.Queue.NumberInQueue           .00571     (Insuf)    .00000     1.0000     .00000    
+Seize WC4.Queue.NumberInQueue               6.4221     .20755     .00000     8.0000     6.0000    
+Seize WC3.Queue.NumberInQueue               7.7332     .00607     6.0000     8.0000     8.0000    
+Seize Buffer3.Queue.NumberInQueue           .44261     .00966     .00000     1.0000     1.0000    
+Seize Buffer1.Queue.NumberInQueue           .41193     .03740     .00000     1.0000     .00000    
+Seize WC6.Queue.NumberInQueue               .08602     .00517     .00000     1.0000     .00000    
+Seize WC2.Queue.NumberInQueue               6.5009     .27710     1.0000     8.0000     5.0000    
+Seize InputConveyor.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer8.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer4.Queue.NumberInQueue           .12415     (Corr)     .00000     1.0000     .00000    
+Seize WC7.Queue.NumberInQueue               .03401     .00278     .00000     1.0000     .00000    
+Seize Buffer7.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize WC5.Queue.NumberInQueue               2.1265     .39637     .00000     8.0000     4.0000    
+Access from WC7.Queue.NumberInQueue         .00920     (Corr)     .00000     1.0000     .00000    
+Access from WC6.Queue.NumberInQueue         .00978     2.9133E-04 .00000     1.0000     .00000    
+Access from WC5.Queue.NumberInQueue         .00972     3.6706E-04 .00000     1.0000     .00000    
+Access from WC4.Queue.NumberInQueue         .00911     4.6804E-04 .00000     2.0000     .00000    
+Access from WC3.Queue.NumberInQueue         .00892     4.0595E-04 .00000     1.0000     .00000    
+Access from WC2.Queue.NumberInQueue         .00915     3.9260E-04 .00000     1.0000     .00000    
+Access from WC1.Queue.NumberInQueue         .00884     3.5401E-04 .00000     1.0000     .00000    
+PalletLoop.Utilization                      .02634     (Corr)     .00000     .12500     .04167    
+PalletLoop.LengthAccumulated                .00000     (Insuf)    .00000     12.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Lost_A300                                       882  Infinite
+Lost_A100                                       835  Infinite
+Lost_A200                                      1276  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+WeeklyLostCost                              2439.6    
+LostParts                                   2993.0    
+A300.NumberIn                               2401.0    
+A300.NumberOut                              2396.0    
+A200.NumberIn                               3429.0    
+A200.NumberOut                              3431.0    
+A100.NumberIn                               1715.0    
+A100.NumberOut                              1716.0    
+Cell3.NumberSeized                          4553.0    
+Cell3.ScheduledUtilization                  1.0000    
+Cell2.NumberSeized                          4553.0    
+Cell2.ScheduledUtilization                  1.0000    
+Cell1.NumberSeized                          4551.0    
+Cell1.ScheduledUtilization                  1.0000    
+Cell7.NumberSeized                          4551.0    
+Cell7.ScheduledUtilization                  .52155    
+Cell6.NumberSeized                          4551.0    
+Cell6.ScheduledUtilization                  .75849    
+Cell5.NumberSeized                          4551.0    
+Cell5.ScheduledUtilization                  .93329    
+Cell4.NumberSeized                          4555.0    
+Cell4.ScheduledUtilization                  1.0000    
+Cell8.NumberSeized                          4551.0    
+Cell8.ScheduledUtilization                  .83155    
+Buffer5.NumberSeized                        4555.0    
+Buffer5.ScheduledUtilization                .29661    
+Buffer4.NumberSeized                        4553.0    
+Buffer4.ScheduledUtilization                .83352    
+Buffer7.NumberSeized                        4550.0    
+Buffer7.ScheduledUtilization                .03510    
+Buffer6.NumberSeized                        4551.0    
+Buffer6.ScheduledUtilization                .04160    
+Buffer1.NumberSeized                        4551.0    
+Buffer1.ScheduledUtilization                .98769    
+Buffer3.NumberSeized                        4553.0    
+Buffer3.ScheduledUtilization                .99744    
+Buffer2.NumberSeized                        4551.0    
+Buffer2.ScheduledUtilization                .84335    
+Buffer8.NumberSeized                        4551.0    
+Buffer8.ScheduledUtilization                .03078    
+Pallet.NumberSeized                         4550.0    
+Pallet.ScheduledUtilization                 1.0000    
+InputConveyor.NumberSeized                  4552.0    
+InputConveyor.ScheduledUtilization          .98625    
+System.NumberOut                            4550.0    
+
+Beginning replication 4 of 10
+
+                                      ARENA Simulation Results
+                                              ResatEfe
+
+                                  Summary for Replication 4 of 10
+
+Project: Unnamed Project                                             Run execution date :11/26/2026
+Analyst: ResatEfe                                                    Model revision date:11/26/2026
+
+Replication ended at time      : 345600.0 Seconds 
+Statistics were cleared at time: 57600.0 Seconds (Thursday, November 26, 2026, 00:00:00)
+Statistics accumulated for time: 288000.0 Seconds
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TIS_A300                                    5011.0     89.923     4446.1     6189.5       1455    
+TIS_A200                                    4993.0     71.864     4399.7     6173.5       2210    
+TIS_A100                                    4996.8     86.856     4435.4     6144.5        883    
+A300.VATime                                 284.19     2.2456     233.92     541.59       1455    
+A300.NVATime                                120.66     1.7426     .00000     129.00       1455    
+A300.WaitTime                               4486.0     89.616     3855.5     5676.9       1455    
+A300.TranTime                               120.00     3.2461E-04 119.96     120.05       1455    
+A300.OtherTime                              .14926     .10447     .00000     38.615       1455    
+A300.TotalTime                              5011.0     89.923     4446.1     6189.5       1455    
+A200.VATime                                 271.49     1.7070     222.62     643.31       2210    
+A200.NVATime                                64.593     1.8514     .00000     96.000       2210    
+A200.WaitTime                               4536.6     70.706     3851.5     5746.9       2210    
+A200.TranTime                               120.00     4.2502E-04 119.96     120.05       2210    
+A200.OtherTime                              .35348     .12353     .00000     34.864       2210    
+A200.TotalTime                              4993.0     71.864     4399.7     6173.5       2210    
+A100.VATime                                 287.17     3.1236     236.00     562.74        883    
+A100.NVATime                                151.82     .36170     .00000     152.00        883    
+A100.WaitTime                               4437.5     86.870     3849.9     5613.6        883    
+A100.TranTime                               120.00     5.5075E-04 119.96     120.05        883    
+A100.OtherTime                              .33633     .17290     .00000     27.900        883    
+A100.TotalTime                              4996.8     86.856     4435.4     6144.5        883    
+Seize WC8.Queue.WaitingTime                 24.953     3.2669     .00000     382.68       4551    
+Seize Pallet.Queue.WaitingTime              2471.0     40.992     2078.0     3372.1       4548    
+Access from C8.Queue.WaitingTime            .53690     .01592     .00000     1.6322       4551    
+Seize Buffer6.Queue.WaitingTime             .00000     .00000     .00000     .00000       4549    
+Seize Buffer2.Queue.WaitingTime             4.7860     1.0680     .00000     231.82       4551    
+Seize WC1.Queue.WaitingTime                 485.02     9.6206     327.23     961.88       4551    
+Seize Buffer5.Queue.WaitingTime             .30549     (Corr)     .00000     63.593       4549    
+Seize WC4.Queue.WaitingTime                 410.57     19.723     20.691     953.26       4549    
+Seize WC3.Queue.WaitingTime                 489.52     8.9586     267.55     988.13       4549    
+Seize Buffer3.Queue.WaitingTime             28.013     1.0452     .00000     365.76       4549    
+Seize Buffer1.Queue.WaitingTime             26.829     2.1441     .00000     245.82       4551    
+Seize WC6.Queue.WaitingTime                 5.1162     .27740     .00000     50.333       4550    
+Seize WC2.Queue.WaitingTime                 409.21     23.363     57.333     961.88       4549    
+Seize InputConveyor.Queue.WaitingTime       .00000     .00000     .00000     .00000       4552    
+Seize Buffer8.Queue.WaitingTime             .00000     .00000     .00000     .00000       4549    
+Seize Buffer4.Queue.WaitingTime             8.1394     1.0806     .00000     357.11       4549    
+Seize WC7.Queue.WaitingTime                 2.4334     .23396     .00000     35.928       4549    
+Seize Buffer7.Queue.WaitingTime             .00000     .00000     .00000     .00000       4550    
+Seize WC5.Queue.WaitingTime                 134.37     25.535     .00000     489.93       4549    
+Access from WC7.Queue.WaitingTime           .55680     .01970     .00000     1.6321       4549    
+Access from WC6.Queue.WaitingTime           .62068     .01378     .00000     1.6319       4550    
+Access from WC5.Queue.WaitingTime           .60773     .01657     .00000     1.6331       4549    
+Access from WC4.Queue.WaitingTime           .57634     .02488     .00000     2.6795       4549    
+Access from WC3.Queue.WaitingTime           .55526     .01776     .00000     1.6327       4549    
+Access from WC2.Queue.WaitingTime           .56913     .01834     .00000     1.6331       4549    
+Access from WC1.Queue.WaitingTime           .56318     .01632     .00000     1.6322       4551    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ConvContent                                 39.458     .01510     37.000     40.000     40.000    
+A300.WIP                                    25.384     .50102     17.000     31.000     30.000    
+A200.WIP                                    38.366     .67262     29.000     49.000     35.000    
+A100.WIP                                    15.322     .55656     8.0000     24.000     15.000    
+Cell3.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell3.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell3.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell2.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell2.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell2.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell1.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell1.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell1.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell7.NumberBusy                            .52454     .00853     .00000     1.0000     .00000    
+Cell7.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell7.Utilization                           .52454     .00853     .00000     1.0000     .00000    
+Cell6.NumberBusy                            .74916     .01119     .00000     1.0000     1.0000    
+Cell6.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell6.Utilization                           .74916     .01119     .00000     1.0000     1.0000    
+Cell5.NumberBusy                            .92875     .01402     .00000     1.0000     1.0000    
+Cell5.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell5.Utilization                           .92875     .01402     .00000     1.0000     1.0000    
+Cell4.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell4.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell4.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell8.NumberBusy                            .84478     .02793     .00000     1.0000     1.0000    
+Cell8.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell8.Utilization                           .84478     .02793     .00000     1.0000     1.0000    
+Buffer5.NumberBusy                          2.3688     .45304     .00000     8.0000     2.0000    
+Buffer5.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer5.Utilization                         .29610     .05663     .00000     1.0000     .25000    
+Buffer4.NumberBusy                          6.7304     (Corr)     .00000     8.0000     6.0000    
+Buffer4.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer4.Utilization                         .84131     (Corr)     .00000     1.0000     .75000    
+Buffer7.NumberBusy                          .28520     .00723     .00000     2.0000     1.0000    
+Buffer7.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer7.Utilization                         .03565     9.0374E-04 .00000     .25000     .12500    
+Buffer6.NumberBusy                          .32734     .00910     .00000     2.0000     .00000    
+Buffer6.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer6.Utilization                         .04092     .00114     .00000     .25000     .00000    
+Buffer1.NumberBusy                          7.9110     .03483     5.0000     8.0000     8.0000    
+Buffer1.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer1.Utilization                         .98888     .00435     .62500     1.0000     1.0000    
+Buffer3.NumberBusy                          7.9779     .00310     6.0000     8.0000     8.0000    
+Buffer3.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer3.Utilization                         .99724     3.8700E-04 .75000     1.0000     1.0000    
+Buffer2.NumberBusy                          6.7127     .30875     1.0000     8.0000     7.0000    
+Buffer2.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer2.Utilization                         .83910     .03859     .12500     1.0000     .87500    
+Buffer8.NumberBusy                          .24571     .00403     .00000     1.0000     1.0000    
+Buffer8.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer8.Utilization                         .03071     5.0417E-04 .00000     .12500     .12500    
+Pallet.NumberBusy                           40.000     (Insuf)    39.000     40.000     40.000    
+Pallet.NumberScheduled                      40.000     (Insuf)    40.000     40.000     40.000    
+Pallet.Utilization                          1.0000     (Insuf)    .97500     1.0000     1.0000    
+InputConveyor.NumberBusy                    39.458     .01510     37.000     40.000     40.000    
+InputConveyor.NumberScheduled               40.000     (Insuf)    40.000     40.000     40.000    
+InputConveyor.Utilization                   .98647     3.7752E-04 .92500     1.0000     1.0000    
+Seize WC8.Queue.NumberInQueue               .39346     (Corr)     .00000     4.0000     .00000    
+Seize Pallet.Queue.NumberInQueue            39.065     (Corr)     34.000     40.000     40.000    
+Access from C8.Queue.NumberInQueue          .00848     2.8092E-04 .00000     1.0000     .00000    
+Seize Buffer6.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer2.Queue.NumberInQueue           .07563     .01434     .00000     1.0000     .00000    
+Seize WC1.Queue.NumberInQueue               7.6655     .03627     5.0000     8.0000     8.0000    
+Seize Buffer5.Queue.NumberInQueue           .00483     (Insuf)    .00000     1.0000     .00000    
+Seize WC4.Queue.NumberInQueue               6.4848     (Corr)     .00000     8.0000     5.0000    
+Seize WC3.Queue.NumberInQueue               7.7320     .00699     6.0000     8.0000     7.0000    
+Seize Buffer3.Queue.NumberInQueue           .44247     .00985     .00000     1.0000     .00000    
+Seize Buffer1.Queue.NumberInQueue           .42402     .03013     .00000     1.0000     1.0000    
+Seize WC6.Queue.NumberInQueue               .08081     .00578     .00000     2.0000     .00000    
+Seize WC2.Queue.NumberInQueue               6.4668     .31148     .00000     8.0000     7.0000    
+Seize InputConveyor.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer8.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer4.Queue.NumberInQueue           .12856     .01432     .00000     1.0000     .00000    
+Seize WC7.Queue.NumberInQueue               .03844     .00386     .00000     1.0000     .00000    
+Seize Buffer7.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize WC5.Queue.NumberInQueue               2.1227     .44958     .00000     8.0000     2.0000    
+Access from WC7.Queue.NumberInQueue         .00879     3.9339E-04 .00000     1.0000     .00000    
+Access from WC6.Queue.NumberInQueue         .00981     3.0960E-04 .00000     1.0000     .00000    
+Access from WC5.Queue.NumberInQueue         .00960     4.0462E-04 .00000     1.0000     .00000    
+Access from WC4.Queue.NumberInQueue         .00910     (Corr)     .00000     2.0000     .00000    
+Access from WC3.Queue.NumberInQueue         .00877     3.3775E-04 .00000     1.0000     .00000    
+Access from WC2.Queue.NumberInQueue         .00899     3.6257E-04 .00000     1.0000     .00000    
+Access from WC1.Queue.NumberInQueue         .00890     3.3622E-04 .00000     1.0000     .00000    
+PalletLoop.Utilization                      .02633     4.2589E-04 .00000     .12500     .05556    
+PalletLoop.LengthAccumulated                .00000     (Insuf)    .00000     14.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Lost_A300                                       942  Infinite
+Lost_A100                                       833  Infinite
+Lost_A200                                      1218  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+WeeklyLostCost                              2446.3    
+LostParts                                   2993.0    
+A300.NumberIn                               2401.0    
+A300.NumberOut                              2397.0    
+A200.NumberIn                               3429.0    
+A200.NumberOut                              3428.0    
+A100.NumberIn                               1715.0    
+A100.NumberOut                              1716.0    
+Cell3.NumberSeized                          4549.0    
+Cell3.ScheduledUtilization                  1.0000    
+Cell2.NumberSeized                          4549.0    
+Cell2.ScheduledUtilization                  1.0000    
+Cell1.NumberSeized                          4551.0    
+Cell1.ScheduledUtilization                  1.0000    
+Cell7.NumberSeized                          4549.0    
+Cell7.ScheduledUtilization                  .52454    
+Cell6.NumberSeized                          4550.0    
+Cell6.ScheduledUtilization                  .74916    
+Cell5.NumberSeized                          4549.0    
+Cell5.ScheduledUtilization                  .92875    
+Cell4.NumberSeized                          4549.0    
+Cell4.ScheduledUtilization                  1.0000    
+Cell8.NumberSeized                          4551.0    
+Cell8.ScheduledUtilization                  .84478    
+Buffer5.NumberSeized                        4549.0    
+Buffer5.ScheduledUtilization                .29610    
+Buffer4.NumberSeized                        4549.0    
+Buffer4.ScheduledUtilization                .84131    
+Buffer7.NumberSeized                        4550.0    
+Buffer7.ScheduledUtilization                .03565    
+Buffer6.NumberSeized                        4549.0    
+Buffer6.ScheduledUtilization                .04092    
+Buffer1.NumberSeized                        4551.0    
+Buffer1.ScheduledUtilization                .98888    
+Buffer3.NumberSeized                        4549.0    
+Buffer3.ScheduledUtilization                .99724    
+Buffer2.NumberSeized                        4551.0    
+Buffer2.ScheduledUtilization                .83910    
+Buffer8.NumberSeized                        4549.0    
+Buffer8.ScheduledUtilization                .03071    
+Pallet.NumberSeized                         4548.0    
+Pallet.ScheduledUtilization                 1.0000    
+InputConveyor.NumberSeized                  4552.0    
+InputConveyor.ScheduledUtilization          .98647    
+System.NumberOut                            4548.0    
+
+Beginning replication 5 of 10
+
+                                      ARENA Simulation Results
+                                              ResatEfe
+
+                                  Summary for Replication 5 of 10
+
+Project: Unnamed Project                                             Run execution date :11/26/2026
+Analyst: ResatEfe                                                    Model revision date:11/26/2026
+
+Replication ended at time      : 345600.0 Seconds 
+Statistics were cleared at time: 57600.0 Seconds (Thursday, November 26, 2026, 00:00:00)
+Statistics accumulated for time: 288000.0 Seconds
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TIS_A300                                    5050.0     65.111     4499.2     6186.6       1480    
+TIS_A200                                    5021.2     62.999     4446.2     6121.8       2191    
+TIS_A100                                    5026.2     69.082     4502.4     6078.1        851    
+A300.VATime                                 285.73     1.8404     231.23     551.75       1480    
+A300.NVATime                                119.41     1.4684     .00000     129.00       1480    
+A300.WaitTime                               4524.7     64.263     3902.0     5595.7       1480    
+A300.TranTime                               120.00     2.8834E-04 119.96     120.03       1480    
+A300.OtherTime                              .20221     .13244     .00000     38.485       1480    
+A300.TotalTime                              5050.0     65.111     4499.2     6186.6       1480    
+A200.VATime                                 271.18     (Corr)     220.81     522.58       2191    
+A200.NVATime                                65.285     2.0921     .00000     96.000       2191    
+A200.WaitTime                               4564.3     61.846     3926.0     5675.4       2191    
+A200.TranTime                               120.00     3.2461E-04 119.96     120.06       2191    
+A200.OtherTime                              .44875     .12586     .00000     34.355       2191    
+A200.TotalTime                              5021.2     62.999     4446.2     6121.8       2191    
+A100.VATime                                 286.84     3.1072     236.24     595.95        851    
+A100.NVATime                                151.28     .70609     .00000     152.00        851    
+A100.WaitTime                               4467.6     68.020     3726.3     5504.1        851    
+A100.TranTime                               120.00     (Corr)     119.96     120.05        851    
+A100.OtherTime                              .53256     .21435     .00000     29.770        851    
+A100.TotalTime                              5026.2     69.082     4502.4     6078.1        851    
+Seize WC8.Queue.WaitingTime                 23.603     3.2944     .00000     394.33       4523    
+Seize Pallet.Queue.WaitingTime              2487.5     31.003     2125.4     3229.3       4522    
+Access from C8.Queue.WaitingTime            .53790     .01755     .00000     1.6329       4523    
+Seize Buffer6.Queue.WaitingTime             .00000     .00000     .00000     .00000       4522    
+Seize Buffer2.Queue.WaitingTime             5.2400     .81591     .00000     303.17       4523    
+Seize WC1.Queue.WaitingTime                 488.47     7.6094     319.33     996.94       4523    
+Seize Buffer5.Queue.WaitingTime             .16490     .12369     .00000     54.233       4523    
+Seize WC4.Queue.WaitingTime                 421.43     12.589     31.707     996.94       4523    
+Seize WC3.Queue.WaitingTime                 492.46     6.7113     234.33     1005.9       4523    
+Seize Buffer3.Queue.WaitingTime             28.424     .87278     .00000     330.76       4523    
+Seize Buffer1.Queue.WaitingTime             26.681     1.9627     .00000     340.17       4523    
+Seize WC6.Queue.WaitingTime                 5.2200     .29906     .00000     48.363       4523    
+Seize WC2.Queue.WaitingTime                 428.31     16.258     5.8537     996.94       4523    
+Seize InputConveyor.Queue.WaitingTime       .00000     .00000     .00000     .00000       4524    
+Seize Buffer8.Queue.WaitingTime             .00000     .00000     .00000     .00000       4522    
+Seize Buffer4.Queue.WaitingTime             8.7775     .90089     .00000     282.20       4523    
+Seize WC7.Queue.WaitingTime                 2.2705     .20535     .00000     33.564       4522    
+Seize Buffer7.Queue.WaitingTime             .00000     .00000     .00000     .00000       4523    
+Seize WC5.Queue.WaitingTime                 113.47     16.921     .00000     489.33       4522    
+Access from WC7.Queue.WaitingTime           .55869     .01996     .00000     1.6332       4522    
+Access from WC6.Queue.WaitingTime           .62692     .01658     .00000     1.6363       4523    
+Access from WC5.Queue.WaitingTime           .60684     .01747     .00000     1.6331       4522    
+Access from WC4.Queue.WaitingTime           .56331     .01835     .00000     3.1459       4523    
+Access from WC3.Queue.WaitingTime           .56384     .01770     .00000     1.6321       4523    
+Access from WC2.Queue.WaitingTime           .57386     .01761     .00000     1.6322       4523    
+Access from WC1.Queue.WaitingTime           .56408     .01624     .00000     1.6329       4523    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ConvContent                                 39.455     .01464     37.000     40.000     40.000    
+A300.WIP                                    25.985     .57944     20.000     34.000     28.000    
+A200.WIP                                    38.240     (Corr)     28.000     49.000     36.000    
+A100.WIP                                    14.867     .68387     6.0000     25.000     16.000    
+Cell3.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell3.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell3.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell2.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell2.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell2.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell1.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell1.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell1.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell7.NumberBusy                            .51836     .00723     .00000     1.0000     .00000    
+Cell7.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell7.Utilization                           .51836     .00723     .00000     1.0000     .00000    
+Cell6.NumberBusy                            .74786     .01178     .00000     1.0000     1.0000    
+Cell6.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell6.Utilization                           .74786     .01178     .00000     1.0000     1.0000    
+Cell5.NumberBusy                            .92308     .01290     .00000     1.0000     1.0000    
+Cell5.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell5.Utilization                           .92308     .01290     .00000     1.0000     1.0000    
+Cell4.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell4.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell4.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell8.NumberBusy                            .83631     .02412     .00000     1.0000     1.0000    
+Cell8.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell8.Utilization                           .83631     .02412     .00000     1.0000     1.0000    
+Buffer5.NumberBusy                          2.0261     .29227     .00000     8.0000     1.0000    
+Buffer5.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer5.Utilization                         .25327     .03653     .00000     1.0000     .12500    
+Buffer4.NumberBusy                          6.8619     .14300     .00000     8.0000     8.0000    
+Buffer4.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer4.Utilization                         .85775     .01788     .00000     1.0000     1.0000    
+Buffer7.NumberBusy                          .28104     .00627     .00000     2.0000     1.0000    
+Buffer7.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer7.Utilization                         .03513     7.8322E-04 .00000     .25000     .12500    
+Buffer6.NumberBusy                          .32704     .00919     .00000     2.0000     .00000    
+Buffer6.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer6.Utilization                         .04088     .00115     .00000     .25000     .00000    
+Buffer1.NumberBusy                          7.9151     .03416     5.0000     8.0000     8.0000    
+Buffer1.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer1.Utilization                         .98939     .00427     .62500     1.0000     1.0000    
+Buffer3.NumberBusy                          7.9775     .00297     6.0000     8.0000     8.0000    
+Buffer3.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer3.Utilization                         .99719     3.7093E-04 .75000     1.0000     1.0000    
+Buffer2.NumberBusy                          6.9707     .19145     .00000     8.0000     7.0000    
+Buffer2.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer2.Utilization                         .87134     .02393     .00000     1.0000     .87500    
+Buffer8.NumberBusy                          .24429     .00372     .00000     1.0000     .00000    
+Buffer8.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer8.Utilization                         .03054     4.6459E-04 .00000     .12500     .00000    
+Pallet.NumberBusy                           40.000     (Insuf)    39.000     40.000     40.000    
+Pallet.NumberScheduled                      40.000     (Insuf)    40.000     40.000     40.000    
+Pallet.Utilization                          1.0000     (Insuf)    .97500     1.0000     1.0000    
+InputConveyor.NumberBusy                    39.455     .01464     37.000     40.000     40.000    
+InputConveyor.NumberScheduled               40.000     (Insuf)    40.000     40.000     40.000    
+InputConveyor.Utilization                   .98638     3.6605E-04 .92500     1.0000     1.0000    
+Seize WC8.Queue.NumberInQueue               .37054     .04928     .00000     3.0000     .00000    
+Seize Pallet.Queue.NumberInQueue            39.084     (Corr)     36.000     40.000     40.000    
+Access from C8.Queue.NumberInQueue          .00845     2.8731E-04 .00000     1.0000     .00000    
+Seize Buffer6.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer2.Queue.NumberInQueue           .08229     .01262     .00000     1.0000     .00000    
+Seize WC1.Queue.NumberInQueue               7.6711     .03585     4.0000     8.0000     7.0000    
+Seize Buffer5.Queue.NumberInQueue           .00259     (Insuf)    .00000     1.0000     .00000    
+Seize WC4.Queue.NumberInQueue               6.6175     .14476     .00000     8.0000     8.0000    
+Seize WC3.Queue.NumberInQueue               7.7329     .00613     6.0000     8.0000     8.0000    
+Seize Buffer3.Queue.NumberInQueue           .44626     .00846     .00000     1.0000     1.0000    
+Seize Buffer1.Queue.NumberInQueue           .41900     .02743     .00000     1.0000     .00000    
+Seize WC6.Queue.NumberInQueue               .08198     .00600     .00000     2.0000     .00000    
+Seize WC2.Queue.NumberInQueue               6.7262     .19400     .00000     8.0000     6.0000    
+Seize InputConveyor.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer8.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer4.Queue.NumberInQueue           .13771     .01420     .00000     1.0000     1.0000    
+Seize WC7.Queue.NumberInQueue               .03565     .00342     .00000     1.0000     .00000    
+Seize Buffer7.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize WC5.Queue.NumberInQueue               1.7817     .28941     .00000     8.0000     1.0000    
+Access from WC7.Queue.NumberInQueue         .00877     3.7540E-04 .00000     1.0000     .00000    
+Access from WC6.Queue.NumberInQueue         .00985     3.6579E-04 .00000     1.0000     .00000    
+Access from WC5.Queue.NumberInQueue         .00953     4.0379E-04 .00000     1.0000     .00000    
+Access from WC4.Queue.NumberInQueue         .00885     4.3692E-04 .00000     2.0000     .00000    
+Access from WC3.Queue.NumberInQueue         .00885     3.7430E-04 .00000     1.0000     .00000    
+Access from WC2.Queue.NumberInQueue         .00901     3.9222E-04 .00000     1.0000     .00000    
+Access from WC1.Queue.NumberInQueue         .00886     3.1450E-04 .00000     1.0000     .00000    
+PalletLoop.Utilization                      .02617     3.9013E-04 .00000     .11111     .04167    
+PalletLoop.LengthAccumulated                .00000     (Insuf)    .00000     14.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Lost_A300                                       918  Infinite
+Lost_A100                                       864  Infinite
+Lost_A200                                      1239  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+WeeklyLostCost                              2471.0    
+LostParts                                   3021.0    
+A300.NumberIn                               2401.0    
+A300.NumberOut                              2398.0    
+A200.NumberIn                               3429.0    
+A200.NumberOut                              3430.0    
+A100.NumberIn                               1715.0    
+A100.NumberOut                              1715.0    
+Cell3.NumberSeized                          4523.0    
+Cell3.ScheduledUtilization                  1.0000    
+Cell2.NumberSeized                          4523.0    
+Cell2.ScheduledUtilization                  1.0000    
+Cell1.NumberSeized                          4523.0    
+Cell1.ScheduledUtilization                  1.0000    
+Cell7.NumberSeized                          4522.0    
+Cell7.ScheduledUtilization                  .51836    
+Cell6.NumberSeized                          4523.0    
+Cell6.ScheduledUtilization                  .74786    
+Cell5.NumberSeized                          4522.0    
+Cell5.ScheduledUtilization                  .92308    
+Cell4.NumberSeized                          4523.0    
+Cell4.ScheduledUtilization                  1.0000    
+Cell8.NumberSeized                          4523.0    
+Cell8.ScheduledUtilization                  .83631    
+Buffer5.NumberSeized                        4523.0    
+Buffer5.ScheduledUtilization                .25327    
+Buffer4.NumberSeized                        4523.0    
+Buffer4.ScheduledUtilization                .85775    
+Buffer7.NumberSeized                        4523.0    
+Buffer7.ScheduledUtilization                .03513    
+Buffer6.NumberSeized                        4522.0    
+Buffer6.ScheduledUtilization                .04088    
+Buffer1.NumberSeized                        4523.0    
+Buffer1.ScheduledUtilization                .98939    
+Buffer3.NumberSeized                        4523.0    
+Buffer3.ScheduledUtilization                .99719    
+Buffer2.NumberSeized                        4523.0    
+Buffer2.ScheduledUtilization                .87134    
+Buffer8.NumberSeized                        4522.0    
+Buffer8.ScheduledUtilization                .03054    
+Pallet.NumberSeized                         4522.0    
+Pallet.ScheduledUtilization                 1.0000    
+InputConveyor.NumberSeized                  4524.0    
+InputConveyor.ScheduledUtilization          .98638    
+System.NumberOut                            4522.0    
+
+Beginning replication 6 of 10
+
+                                      ARENA Simulation Results
+                                              ResatEfe
+
+                                  Summary for Replication 6 of 10
+
+Project: Unnamed Project                                             Run execution date :11/26/2026
+Analyst: ResatEfe                                                    Model revision date:11/26/2026
+
+Replication ended at time      : 345600.0 Seconds 
+Statistics were cleared at time: 57600.0 Seconds (Thursday, November 26, 2026, 00:00:00)
+Statistics accumulated for time: 288000.0 Seconds
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TIS_A300                                    5045.2     82.497     4455.5     5824.8       1498    
+TIS_A200                                    5029.5     76.063     4414.7     5850.5       2143    
+TIS_A100                                    5009.3     77.947     4440.9     5800.3        886    
+A300.VATime                                 283.58     2.6311     234.36     676.09       1498    
+A300.NVATime                                118.92     1.7723     .00000     129.00       1498    
+A300.WaitTime                               4522.6     81.743     3861.6     5375.7       1498    
+A300.TranTime                               120.00     4.0682E-04 119.96     120.05       1498    
+A300.OtherTime                              .08939     .09896     .00000     34.589       1498    
+A300.TotalTime                              5045.2     82.497     4455.5     5824.8       1498    
+A200.VATime                                 272.17     1.7360     219.05     536.44       2143    
+A200.NVATime                                68.091     1.8158     .00000     96.000       2143    
+A200.WaitTime                               4568.9     75.457     3905.0     5452.7       2143    
+A200.TranTime                               120.00     (Corr)     119.96     120.08       2143    
+A200.OtherTime                              .36549     .12040     .00000     33.875       2143    
+A200.TotalTime                              5029.5     76.063     4414.7     5850.5       2143    
+A100.VATime                                 286.10     3.2635     234.76     502.19        886    
+A100.NVATime                                150.79     .79625     .00000     152.00        886    
+A100.WaitTime                               4452.1     76.791     3851.9     5256.0        886    
+A100.TranTime                               120.00     5.3514E-04 119.96     120.07        886    
+A100.OtherTime                              .23058     .17843     .00000     29.648        886    
+A100.TotalTime                              5009.3     77.947     4440.9     5800.3        886    
+Seize WC8.Queue.WaitingTime                 26.531     4.5472     .00000     357.91       4526    
+Seize Pallet.Queue.WaitingTime              2485.5     39.914     2107.4     3283.9       4527    
+Access from C8.Queue.WaitingTime            .54617     .01589     .00000     1.6330       4526    
+Seize Buffer6.Queue.WaitingTime             .00000     .00000     .00000     .00000       4527    
+Seize Buffer2.Queue.WaitingTime             4.9730     1.1309     .00000     354.53       4526    
+Seize WC1.Queue.WaitingTime                 485.10     10.045     289.89     919.11       4526    
+Seize Buffer5.Queue.WaitingTime             .16016     (Corr)     .00000     57.608       4528    
+Seize WC4.Queue.WaitingTime                 417.05     18.160     .00000     923.97       4528    
+Seize WC3.Queue.WaitingTime                 492.02     9.2332     274.68     923.97       4529    
+Seize Buffer3.Queue.WaitingTime             28.258     1.1511     .00000     403.58       4529    
+Seize Buffer1.Queue.WaitingTime             25.873     2.6217     .00000     383.87       4526    
+Seize WC6.Queue.WaitingTime                 5.4521     .32236     .00000     49.666       4527    
+Seize WC2.Queue.WaitingTime                 417.66     21.836     111.33     914.11       4529    
+Seize InputConveyor.Queue.WaitingTime       .00000     .00000     .00000     .00000       4527    
+Seize Buffer8.Queue.WaitingTime             .00000     .00000     .00000     .00000       4527    
+Seize Buffer4.Queue.WaitingTime             8.0673     1.2975     .00000     382.53       4529    
+Seize WC7.Queue.WaitingTime                 2.0662     .17532     .00000     33.904       4526    
+Seize Buffer7.Queue.WaitingTime             .00000     .00000     .00000     .00000       4527    
+Seize WC5.Queue.WaitingTime                 127.02     22.407     .00000     500.00       4527    
+Access from WC7.Queue.WaitingTime           .56000     .02099     .00000     1.6311       4527    
+Access from WC6.Queue.WaitingTime           .61768     .01786     .00000     1.6332       4527    
+Access from WC5.Queue.WaitingTime           .61689     .01958     .00000     1.6326       4527    
+Access from WC4.Queue.WaitingTime           .56902     .01775     .00000     3.0837       4528    
+Access from WC3.Queue.WaitingTime           .57221     .01781     .00000     1.6330       4529    
+Access from WC2.Queue.WaitingTime           .58472     .01974     .00000     1.6330       4529    
+Access from WC1.Queue.WaitingTime           .57360     .01284     .00000     1.6330       4526    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ConvContent                                 39.463     .01576     37.000     40.000     40.000    
+A300.WIP                                    26.251     .48415     19.000     34.000     27.000    
+A200.WIP                                    37.435     .66811     29.000     47.000     40.000    
+A100.WIP                                    15.366     .65889     8.0000     24.000     12.000    
+Cell3.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell3.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell3.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell2.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell2.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell2.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell1.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell1.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell1.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell7.NumberBusy                            .51875     .00803     .00000     1.0000     .00000    
+Cell7.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell7.Utilization                           .51875     .00803     .00000     1.0000     .00000    
+Cell6.NumberBusy                            .75461     .01375     .00000     1.0000     1.0000    
+Cell6.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell6.Utilization                           .75461     .01375     .00000     1.0000     1.0000    
+Cell5.NumberBusy                            .92847     .01620     .00000     1.0000     1.0000    
+Cell5.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell5.Utilization                           .92847     .01620     .00000     1.0000     1.0000    
+Cell4.NumberBusy                            .99995     (Insuf)    .00000     1.0000     1.0000    
+Cell4.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell4.Utilization                           .99995     (Insuf)    .00000     1.0000     1.0000    
+Cell8.NumberBusy                            .82603     .03774     .00000     1.0000     1.0000    
+Cell8.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell8.Utilization                           .82603     .03774     .00000     1.0000     1.0000    
+Buffer5.NumberBusy                          2.2425     .39091     .00000     8.0000     4.0000    
+Buffer5.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer5.Utilization                         .28032     .04886     .00000     1.0000     .50000    
+Buffer4.NumberBusy                          6.8021     .16692     .00000     8.0000     7.0000    
+Buffer4.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer4.Utilization                         .85026     .02087     .00000     1.0000     .87500    
+Buffer7.NumberBusy                          .27796     .00547     .00000     2.0000     1.0000    
+Buffer7.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer7.Utilization                         .03474     6.8336E-04 .00000     .25000     .12500    
+Buffer6.NumberBusy                          .33118     .00791     .00000     2.0000     .00000    
+Buffer6.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer6.Utilization                         .04140     9.8898E-04 .00000     .25000     .00000    
+Buffer1.NumberBusy                          7.8667     (Corr)     5.0000     8.0000     8.0000    
+Buffer1.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer1.Utilization                         .98334     (Corr)     .62500     1.0000     1.0000    
+Buffer3.NumberBusy                          7.9811     .00260     6.0000     8.0000     8.0000    
+Buffer3.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer3.Utilization                         .99764     3.2493E-04 .75000     1.0000     1.0000    
+Buffer2.NumberBusy                          6.8088     .25733     2.0000     8.0000     4.0000    
+Buffer2.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer2.Utilization                         .85111     .03217     .25000     1.0000     .50000    
+Buffer8.NumberBusy                          .24458     .00397     .00000     1.0000     .00000    
+Buffer8.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer8.Utilization                         .03057     4.9624E-04 .00000     .12500     .00000    
+Pallet.NumberBusy                           40.000     (Insuf)    39.000     40.000     40.000    
+Pallet.NumberScheduled                      40.000     (Insuf)    40.000     40.000     40.000    
+Pallet.Utilization                          1.0000     (Insuf)    .97500     1.0000     1.0000    
+InputConveyor.NumberBusy                    39.463     .01576     37.000     40.000     40.000    
+InputConveyor.NumberScheduled               40.000     (Insuf)    40.000     40.000     40.000    
+InputConveyor.Utilization                   .98658     3.9405E-04 .92500     1.0000     1.0000    
+Seize WC8.Queue.NumberInQueue               .41708     .07392     .00000     3.0000     1.0000    
+Seize Pallet.Queue.NumberInQueue            39.046     .06966     36.000     40.000     39.000    
+Access from C8.Queue.NumberInQueue          .00858     3.2856E-04 .00000     1.0000     .00000    
+Seize Buffer6.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer2.Queue.NumberInQueue           .07815     .01662     .00000     1.0000     .00000    
+Seize WC1.Queue.NumberInQueue               7.6224     (Corr)     5.0000     8.0000     8.0000    
+Seize Buffer5.Queue.NumberInQueue           .00252     (Insuf)    .00000     1.0000     .00000    
+Seize WC4.Queue.NumberInQueue               6.5572     .16977     .00000     8.0000     6.0000    
+Seize WC3.Queue.NumberInQueue               7.7360     .00657     6.0000     8.0000     7.0000    
+Seize Buffer3.Queue.NumberInQueue           .44438     .01016     .00000     1.0000     .00000    
+Seize Buffer1.Queue.NumberInQueue           .40660     .03996     .00000     1.0000     1.0000    
+Seize WC6.Queue.NumberInQueue               .08570     (Corr)     .00000     2.0000     .00000    
+Seize WC2.Queue.NumberInQueue               6.5641     .26039     1.0000     8.0000     4.0000    
+Seize InputConveyor.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer8.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer4.Queue.NumberInQueue           .12686     .01837     .00000     1.0000     .00000    
+Seize WC7.Queue.NumberInQueue               .03247     .00302     .00000     1.0000     .00000    
+Seize Buffer7.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize WC5.Queue.NumberInQueue               1.9978     .38759     .00000     8.0000     3.0000    
+Access from WC7.Queue.NumberInQueue         .00880     4.0687E-04 .00000     1.0000     .00000    
+Access from WC6.Queue.NumberInQueue         .00971     (Corr)     .00000     1.0000     .00000    
+Access from WC5.Queue.NumberInQueue         .00970     3.6575E-04 .00000     1.0000     .00000    
+Access from WC4.Queue.NumberInQueue         .00895     3.9380E-04 .00000     2.0000     .00000    
+Access from WC3.Queue.NumberInQueue         .00900     (Corr)     .00000     1.0000     .00000    
+Access from WC2.Queue.NumberInQueue         .00920     (Corr)     .00000     1.0000     .00000    
+Access from WC1.Queue.NumberInQueue         .00901     3.1948E-04 .00000     1.0000     .00000    
+PalletLoop.Utilization                      .02620     4.2555E-04 .00000     .12500     .05556    
+PalletLoop.LengthAccumulated                .00000     (Insuf)    .00000     14.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Lost_A300                                       901  Infinite
+Lost_A100                                       832  Infinite
+Lost_A200                                      1285  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+WeeklyLostCost                              2458.9    
+LostParts                                   3018.0    
+A300.NumberIn                               2401.0    
+A300.NumberOut                              2399.0    
+A200.NumberIn                               3429.0    
+A200.NumberOut                              3428.0    
+A100.NumberIn                               1715.0    
+A100.NumberOut                              1718.0    
+Cell3.NumberSeized                          4529.0    
+Cell3.ScheduledUtilization                  1.0000    
+Cell2.NumberSeized                          4529.0    
+Cell2.ScheduledUtilization                  1.0000    
+Cell1.NumberSeized                          4526.0    
+Cell1.ScheduledUtilization                  1.0000    
+Cell7.NumberSeized                          4526.0    
+Cell7.ScheduledUtilization                  .51875    
+Cell6.NumberSeized                          4527.0    
+Cell6.ScheduledUtilization                  .75461    
+Cell5.NumberSeized                          4527.0    
+Cell5.ScheduledUtilization                  .92847    
+Cell4.NumberSeized                          4528.0    
+Cell4.ScheduledUtilization                  .99995    
+Cell8.NumberSeized                          4526.0    
+Cell8.ScheduledUtilization                  .82603    
+Buffer5.NumberSeized                        4528.0    
+Buffer5.ScheduledUtilization                .28032    
+Buffer4.NumberSeized                        4529.0    
+Buffer4.ScheduledUtilization                .85026    
+Buffer7.NumberSeized                        4527.0    
+Buffer7.ScheduledUtilization                .03474    
+Buffer6.NumberSeized                        4527.0    
+Buffer6.ScheduledUtilization                .04140    
+Buffer1.NumberSeized                        4526.0    
+Buffer1.ScheduledUtilization                .98334    
+Buffer3.NumberSeized                        4529.0    
+Buffer3.ScheduledUtilization                .99764    
+Buffer2.NumberSeized                        4526.0    
+Buffer2.ScheduledUtilization                .85111    
+Buffer8.NumberSeized                        4527.0    
+Buffer8.ScheduledUtilization                .03057    
+Pallet.NumberSeized                         4527.0    
+Pallet.ScheduledUtilization                 1.0000    
+InputConveyor.NumberSeized                  4527.0    
+InputConveyor.ScheduledUtilization          .98658    
+System.NumberOut                            4527.0    
+
+Beginning replication 7 of 10
+
+                                      ARENA Simulation Results
+                                              ResatEfe
+
+                                  Summary for Replication 7 of 10
+
+Project: Unnamed Project                                             Run execution date :11/26/2026
+Analyst: ResatEfe                                                    Model revision date:11/26/2026
+
+Replication ended at time      : 345600.0 Seconds 
+Statistics were cleared at time: 57600.0 Seconds (Thursday, November 26, 2026, 00:00:00)
+Statistics accumulated for time: 288000.0 Seconds
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TIS_A300                                    5082.0     95.005     4292.9     6386.7       1457    
+TIS_A200                                    5049.4     85.615     4258.8     6391.5       2159    
+TIS_A100                                    5051.6     89.958     4325.1     6361.4        885    
+A300.VATime                                 283.93     2.3827     231.38     536.35       1457    
+A300.NVATime                                117.13     2.1878     .00000     129.00       1457    
+A300.WaitTime                               4560.7     93.461     3775.6     5904.3       1457    
+A300.TranTime                               120.00     3.8414E-04 119.96     120.05       1457    
+A300.OtherTime                              .15377     .12483     .00000     37.199       1457    
+A300.TotalTime                              5082.0     95.005     4292.9     6386.7       1457    
+A200.VATime                                 272.38     1.6510     220.35     505.06       2159    
+A200.NVATime                                64.963     1.6764     .00000     96.000       2159    
+A200.WaitTime                               4591.5     84.613     3801.2     5950.6       2159    
+A200.TranTime                               120.00     3.9140E-04 119.96     120.05       2159    
+A200.OtherTime                              .58888     .16940     .00000     34.760       2159    
+A200.TotalTime                              5049.4     85.615     4258.8     6391.5       2159    
+A100.VATime                                 288.89     2.8424     233.89     649.00        885    
+A100.NVATime                                151.31     .68039     .00000     152.00        885    
+A100.WaitTime                               4491.0     89.620     3756.1     5830.7        885    
+A100.TranTime                               120.00     6.0795E-04 119.96     120.03        885    
+A100.OtherTime                              .43924     .21015     .00000     28.831        885    
+A100.TotalTime                              5051.6     89.958     4325.1     6361.4        885    
+Seize WC8.Queue.WaitingTime                 25.858     5.3098     .00000     510.40       4501    
+Seize Pallet.Queue.WaitingTime              2500.0     46.848     2038.6     3420.8       4501    
+Access from C8.Queue.WaitingTime            .53775     .02197     .00000     1.6306       4501    
+Seize Buffer6.Queue.WaitingTime             .00000     .00000     .00000     .00000       4501    
+Seize Buffer2.Queue.WaitingTime             5.6449     1.1244     .00000     366.59       4501    
+Seize WC1.Queue.WaitingTime                 489.13     11.008     307.48     1039.3       4501    
+Seize Buffer5.Queue.WaitingTime             .06722     .10242     .00000     57.001       4501    
+Seize WC4.Queue.WaitingTime                 428.29     14.978     92.402     1050.6       4501    
+Seize WC3.Queue.WaitingTime                 495.01     9.0037     272.05     1094.8       4501    
+Seize Buffer3.Queue.WaitingTime             28.658     1.0528     .00000     378.86       4501    
+Seize Buffer1.Queue.WaitingTime             26.392     2.7264     .00000     397.59       4501    
+Seize WC6.Queue.WaitingTime                 5.5786     .35570     .00000     49.333       4502    
+Seize WC2.Queue.WaitingTime                 435.61     21.485     27.000     1039.3       4501    
+Seize InputConveyor.Queue.WaitingTime       .00000     .00000     .00000     .00000       4503    
+Seize Buffer8.Queue.WaitingTime             .00000     .00000     .00000     .00000       4501    
+Seize Buffer4.Queue.WaitingTime             8.9544     1.1326     .00000     399.59       4501    
+Seize WC7.Queue.WaitingTime                 2.2647     .18703     .00000     32.791       4502    
+Seize Buffer7.Queue.WaitingTime             .00000     .00000     .00000     .00000       4501    
+Seize WC5.Queue.WaitingTime                 105.10     (Corr)     .00000     471.49       4501    
+Access from WC7.Queue.WaitingTime           .56540     .02348     .00000     1.6332       4501    
+Access from WC6.Queue.WaitingTime           .60249     .01578     .00000     1.6331       4501    
+Access from WC5.Queue.WaitingTime           .60412     .01767     .00000     1.6323       4501    
+Access from WC4.Queue.WaitingTime           .56781     .01982     .00000     2.5290       4501    
+Access from WC3.Queue.WaitingTime           .55414     .01804     .00000     1.6323       4501    
+Access from WC2.Queue.WaitingTime           .57164     .01791     .00000     1.6323       4501    
+Access from WC1.Queue.WaitingTime           .57570     .01926     .00000     1.6306       4501    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ConvContent                                 39.460     .01373     37.000     40.000     40.000    
+A300.WIP                                    25.726     .52827     19.000     33.000     24.000    
+A200.WIP                                    37.834     .60289     30.000     47.000     37.000    
+A100.WIP                                    15.506     .58567     9.0000     24.000     19.000    
+Cell3.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell3.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell3.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell2.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell2.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell2.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell1.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell1.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell1.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell7.NumberBusy                            .51767     .01006     .00000     1.0000     1.0000    
+Cell7.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell7.Utilization                           .51767     .01006     .00000     1.0000     1.0000    
+Cell6.NumberBusy                            .74123     .01242     .00000     1.0000     1.0000    
+Cell6.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell6.Utilization                           .74123     .01242     .00000     1.0000     1.0000    
+Cell5.NumberBusy                            .91552     .01554     .00000     1.0000     1.0000    
+Cell5.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell5.Utilization                           .91552     .01554     .00000     1.0000     1.0000    
+Cell4.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell4.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell4.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell8.NumberBusy                            .82534     .03572     .00000     1.0000     1.0000    
+Cell8.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell8.Utilization                           .82534     .03572     .00000     1.0000     1.0000    
+Buffer5.NumberBusy                          1.8858     .33780     .00000     8.0000     .00000    
+Buffer5.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer5.Utilization                         .23574     .04222     .00000     1.0000     .00000    
+Buffer4.NumberBusy                          6.9371     .14160     1.0000     8.0000     8.0000    
+Buffer4.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer4.Utilization                         .86714     .01770     .12500     1.0000     1.0000    
+Buffer7.NumberBusy                          .27926     .00726     .00000     2.0000     .00000    
+Buffer7.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer7.Utilization                         .03491     9.0808E-04 .00000     .25000     .00000    
+Buffer6.NumberBusy                          .33108     .00854     .00000     2.0000     .00000    
+Buffer6.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer6.Utilization                         .04138     .00107     .00000     .25000     .00000    
+Buffer1.NumberBusy                          7.8874     .05630     5.0000     8.0000     8.0000    
+Buffer1.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer1.Utilization                         .98593     .00704     .62500     1.0000     1.0000    
+Buffer3.NumberBusy                          7.9802     .00263     6.0000     8.0000     8.0000    
+Buffer3.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer3.Utilization                         .99753     3.2847E-04 .75000     1.0000     1.0000    
+Buffer2.NumberBusy                          7.0519     .24075     .00000     8.0000     8.0000    
+Buffer2.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer2.Utilization                         .88149     .03009     .00000     1.0000     1.0000    
+Buffer8.NumberBusy                          .24326     .00461     .00000     1.0000     .00000    
+Buffer8.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer8.Utilization                         .03041     5.7686E-04 .00000     .12500     .00000    
+Pallet.NumberBusy                           40.000     (Insuf)    39.000     40.000     40.000    
+Pallet.NumberScheduled                      40.000     (Insuf)    40.000     40.000     40.000    
+Pallet.Utilization                          1.0000     (Insuf)    .97500     1.0000     1.0000    
+InputConveyor.NumberBusy                    39.460     .01373     37.000     40.000     40.000    
+InputConveyor.NumberScheduled               40.000     (Insuf)    40.000     40.000     40.000    
+InputConveyor.Utilization                   .98651     3.4317E-04 .92500     1.0000     1.0000    
+Seize WC8.Queue.NumberInQueue               .40412     .08121     .00000     4.0000     .00000    
+Seize Pallet.Queue.NumberInQueue            39.056     .08377     35.000     40.000     40.000    
+Access from C8.Queue.NumberInQueue          .00840     (Corr)     .00000     1.0000     .00000    
+Seize Buffer6.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer2.Queue.NumberInQueue           .08822     .01649     .00000     1.0000     .00000    
+Seize WC1.Queue.NumberInQueue               7.6445     .05789     5.0000     8.0000     8.0000    
+Seize Buffer5.Queue.NumberInQueue           .00105     (Insuf)    .00000     1.0000     .00000    
+Seize WC4.Queue.NumberInQueue               6.6940     .14518     1.0000     8.0000     8.0000    
+Seize WC3.Queue.NumberInQueue               7.7368     .00659     6.0000     8.0000     8.0000    
+Seize Buffer3.Queue.NumberInQueue           .44788     .00969     .00000     1.0000     .00000    
+Seize Buffer1.Queue.NumberInQueue           .41248     .03834     .00000     1.0000     .00000    
+Seize WC6.Queue.NumberInQueue               .08721     .00531     .00000     2.0000     .00000    
+Seize WC2.Queue.NumberInQueue               6.8084     .24373     .00000     8.0000     8.0000    
+Seize InputConveyor.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer8.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer4.Queue.NumberInQueue           .13994     .01619     .00000     1.0000     .00000    
+Seize WC7.Queue.NumberInQueue               .03540     .00345     .00000     1.0000     .00000    
+Seize Buffer7.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize WC5.Queue.NumberInQueue               1.6425     .33486     .00000     8.0000     .00000    
+Access from WC7.Queue.NumberInQueue         .00884     4.7847E-04 .00000     1.0000     .00000    
+Access from WC6.Queue.NumberInQueue         .00942     3.5784E-04 .00000     1.0000     .00000    
+Access from WC5.Queue.NumberInQueue         .00944     3.8584E-04 .00000     1.0000     .00000    
+Access from WC4.Queue.NumberInQueue         .00887     4.0086E-04 .00000     2.0000     .00000    
+Access from WC3.Queue.NumberInQueue         .00866     3.4614E-04 .00000     1.0000     .00000    
+Access from WC2.Queue.NumberInQueue         .00893     3.6944E-04 .00000     1.0000     .00000    
+Access from WC1.Queue.NumberInQueue         .00900     3.5890E-04 .00000     1.0000     .00000    
+PalletLoop.Utilization                      .02605     4.5985E-04 .00000     .12500     .00000    
+PalletLoop.LengthAccumulated                .00000     (Insuf)    .00000     12.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Lost_A300                                       941  Infinite
+Lost_A100                                       830  Infinite
+Lost_A200                                      1271  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+WeeklyLostCost                              2480.2    
+LostParts                                   3042.0    
+A300.NumberIn                               2401.0    
+A300.NumberOut                              2398.0    
+A200.NumberIn                               3429.0    
+A200.NumberOut                              3430.0    
+A100.NumberIn                               1715.0    
+A100.NumberOut                              1715.0    
+Cell3.NumberSeized                          4501.0    
+Cell3.ScheduledUtilization                  1.0000    
+Cell2.NumberSeized                          4501.0    
+Cell2.ScheduledUtilization                  1.0000    
+Cell1.NumberSeized                          4501.0    
+Cell1.ScheduledUtilization                  1.0000    
+Cell7.NumberSeized                          4502.0    
+Cell7.ScheduledUtilization                  .51767    
+Cell6.NumberSeized                          4502.0    
+Cell6.ScheduledUtilization                  .74123    
+Cell5.NumberSeized                          4501.0    
+Cell5.ScheduledUtilization                  .91552    
+Cell4.NumberSeized                          4501.0    
+Cell4.ScheduledUtilization                  1.0000    
+Cell8.NumberSeized                          4501.0    
+Cell8.ScheduledUtilization                  .82534    
+Buffer5.NumberSeized                        4501.0    
+Buffer5.ScheduledUtilization                .23574    
+Buffer4.NumberSeized                        4501.0    
+Buffer4.ScheduledUtilization                .86714    
+Buffer7.NumberSeized                        4501.0    
+Buffer7.ScheduledUtilization                .03491    
+Buffer6.NumberSeized                        4501.0    
+Buffer6.ScheduledUtilization                .04138    
+Buffer1.NumberSeized                        4501.0    
+Buffer1.ScheduledUtilization                .98593    
+Buffer3.NumberSeized                        4501.0    
+Buffer3.ScheduledUtilization                .99753    
+Buffer2.NumberSeized                        4501.0    
+Buffer2.ScheduledUtilization                .88149    
+Buffer8.NumberSeized                        4501.0    
+Buffer8.ScheduledUtilization                .03041    
+Pallet.NumberSeized                         4501.0    
+Pallet.ScheduledUtilization                 1.0000    
+InputConveyor.NumberSeized                  4503.0    
+InputConveyor.ScheduledUtilization          .98651    
+System.NumberOut                            4501.0    
+
+Beginning replication 8 of 10
+
+                                      ARENA Simulation Results
+                                              ResatEfe
+
+                                  Summary for Replication 8 of 10
+
+Project: Unnamed Project                                             Run execution date :11/26/2026
+Analyst: ResatEfe                                                    Model revision date:11/26/2026
+
+Replication ended at time      : 345600.0 Seconds 
+Statistics were cleared at time: 57600.0 Seconds (Thursday, November 26, 2026, 00:00:00)
+Statistics accumulated for time: 288000.0 Seconds
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TIS_A300                                    4976.4     70.579     4467.7     5871.6       1502    
+TIS_A200                                    4954.0     61.019     4418.6     5893.9       2206    
+TIS_A100                                    4949.3     62.175     4450.2     5784.3        879    
+A300.VATime                                 283.64     3.0010     233.64     663.16       1502    
+A300.NVATime                                118.86     1.7329     .00000     129.00       1502    
+A300.WaitTime                               4453.7     69.256     3829.1     5397.4       1502    
+A300.TranTime                               120.00     4.3057E-04 119.96     120.05       1502    
+A300.OtherTime                              .21096     .11511     .00000     39.997       1502    
+A300.TotalTime                              4976.4     70.579     4467.7     5871.6       1502    
+A200.VATime                                 270.85     1.7559     220.56     573.86       2206    
+A200.NVATime                                65.015     1.9244     .00000     96.000       2206    
+A200.WaitTime                               4497.7     61.026     3885.3     5496.4       2206    
+A200.TranTime                               120.00     2.9906E-04 119.94     120.06       2206    
+A200.OtherTime                              .37362     .14585     .00000     34.861       2206    
+A200.TotalTime                              4954.0     61.019     4418.6     5893.9       2206    
+A100.VATime                                 286.10     2.5304     233.53     603.12        879    
+A100.NVATime                                150.96     .79625     .00000     152.00        879    
+A100.WaitTime                               4391.7     61.875     3851.4     5150.3        879    
+A100.TranTime                               120.00     5.0536E-04 119.96     120.05        879    
+A100.OtherTime                              .47676     .23369     .00000     29.691        879    
+A100.TotalTime                              4949.3     62.175     4450.2     5784.3        879    
+Seize WC8.Queue.WaitingTime                 26.562     5.3547     .00000     370.75       4587    
+Seize Pallet.Queue.WaitingTime              2450.0     33.268     2065.5     3163.3       4587    
+Access from C8.Queue.WaitingTime            .56095     .01952     .00000     1.6318       4587    
+Seize Buffer6.Queue.WaitingTime             .00000     .00000     .00000     .00000       4587    
+Seize Buffer2.Queue.WaitingTime             4.4030     .93443     .00000     282.55       4587    
+Seize WC1.Queue.WaitingTime                 478.87     (Corr)     304.12     925.61       4587    
+Seize Buffer5.Queue.WaitingTime             .28505     (Corr)     .00000     71.639       4583    
+Seize WC4.Queue.WaitingTime                 409.50     14.014     .00000     945.01       4583    
+Seize WC3.Queue.WaitingTime                 485.67     6.9910     264.01     986.67       4584    
+Seize Buffer3.Queue.WaitingTime             27.493     .92386     .00000     374.34       4584    
+Seize Buffer1.Queue.WaitingTime             25.674     (Corr)     .00000     294.26       4587    
+Seize WC6.Queue.WaitingTime                 5.6084     .26910     .00000     49.000       4586    
+Seize WC2.Queue.WaitingTime                 401.59     (Corr)     36.094     902.27       4584    
+Seize InputConveyor.Queue.WaitingTime       .00000     .00000     .00000     .00000       4588    
+Seize Buffer8.Queue.WaitingTime             .00000     .00000     .00000     .00000       4586    
+Seize Buffer4.Queue.WaitingTime             7.8209     1.1733     .00000     324.86       4584    
+Seize WC7.Queue.WaitingTime                 2.3507     .21627     .00000     34.946       4586    
+Seize Buffer7.Queue.WaitingTime             .00000     .00000     .00000     .00000       4586    
+Seize WC5.Queue.WaitingTime                 134.69     (Corr)     .00000     498.83       4586    
+Access from WC7.Queue.WaitingTime           .57435     .01786     .00000     1.6326       4586    
+Access from WC6.Queue.WaitingTime           .63148     .01500     .00000     1.6333       4586    
+Access from WC5.Queue.WaitingTime           .60387     .01769     .00000     1.6332       4587    
+Access from WC4.Queue.WaitingTime           .56899     (Corr)     .00000     2.3218       4583    
+Access from WC3.Queue.WaitingTime           .56238     .01748     .00000     1.6332       4584    
+Access from WC2.Queue.WaitingTime           .57259     .01467     .00000     1.6332       4584    
+Access from WC1.Queue.WaitingTime           .58247     .01600     .00000     1.6328       4587    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ConvContent                                 39.454     .01221     37.000     40.000     40.000    
+A300.WIP                                    25.961     .52581     18.000     34.000     30.000    
+A200.WIP                                    37.927     (Corr)     30.000     48.000     35.000    
+A100.WIP                                    15.150     .52797     7.0000     22.000     15.000    
+Cell3.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell3.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell3.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell2.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell2.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell2.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell1.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell1.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell1.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell7.NumberBusy                            .52700     .00769     .00000     1.0000     1.0000    
+Cell7.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell7.Utilization                           .52700     .00769     .00000     1.0000     1.0000    
+Cell6.NumberBusy                            .75795     .01253     .00000     1.0000     1.0000    
+Cell6.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell6.Utilization                           .75795     .01253     .00000     1.0000     1.0000    
+Cell5.NumberBusy                            .93547     .01532     .00000     1.0000     .00000    
+Cell5.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell5.Utilization                           .93547     .01532     .00000     1.0000     .00000    
+Cell4.NumberBusy                            .99973     (Insuf)    .00000     1.0000     1.0000    
+Cell4.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell4.Utilization                           .99973     (Insuf)    .00000     1.0000     1.0000    
+Cell8.NumberBusy                            .82994     .03422     .00000     1.0000     1.0000    
+Cell8.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell8.Utilization                           .82994     .03422     .00000     1.0000     1.0000    
+Buffer5.NumberBusy                          2.3922     .41702     .00000     8.0000     .00000    
+Buffer5.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer5.Utilization                         .29903     .05213     .00000     1.0000     .00000    
+Buffer4.NumberBusy                          6.7660     .16524     .00000     8.0000     8.0000    
+Buffer4.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer4.Utilization                         .84575     .02066     .00000     1.0000     1.0000    
+Buffer7.NumberBusy                          .28634     .00557     .00000     2.0000     .00000    
+Buffer7.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer7.Utilization                         .03579     6.9641E-04 .00000     .25000     .00000    
+Buffer6.NumberBusy                          .33779     .00613     .00000     2.0000     1.0000    
+Buffer6.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer6.Utilization                         .04222     7.6672E-04 .00000     .25000     .12500    
+Buffer1.NumberBusy                          7.8742     .05788     5.0000     8.0000     8.0000    
+Buffer1.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer1.Utilization                         .98429     .00723     .62500     1.0000     1.0000    
+Buffer3.NumberBusy                          7.9783     .00283     6.0000     8.0000     8.0000    
+Buffer3.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer3.Utilization                         .99729     3.5422E-04 .75000     1.0000     1.0000    
+Buffer2.NumberBusy                          6.6438     .33447     .00000     8.0000     8.0000    
+Buffer2.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer2.Utilization                         .83048     .04181     .00000     1.0000     1.0000    
+Buffer8.NumberBusy                          .24800     .00366     .00000     1.0000     .00000    
+Buffer8.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer8.Utilization                         .03100     4.5729E-04 .00000     .12500     .00000    
+Pallet.NumberBusy                           40.000     (Insuf)    39.000     40.000     40.000    
+Pallet.NumberScheduled                      40.000     (Insuf)    40.000     40.000     40.000    
+Pallet.Utilization                          1.0000     (Insuf)    .97500     1.0000     1.0000    
+InputConveyor.NumberBusy                    39.454     .01221     37.000     40.000     40.000    
+InputConveyor.NumberScheduled               40.000     (Insuf)    40.000     40.000     40.000    
+InputConveyor.Utilization                   .98636     3.0535E-04 .92500     1.0000     1.0000    
+Seize WC8.Queue.NumberInQueue               .42307     .08308     .00000     4.0000     .00000    
+Seize Pallet.Queue.NumberInQueue            39.031     .08315     36.000     40.000     40.000    
+Access from C8.Queue.NumberInQueue          .00893     3.0437E-04 .00000     1.0000     .00000    
+Seize Buffer6.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer2.Queue.NumberInQueue           .07013     .01468     .00000     1.0000     .00000    
+Seize WC1.Queue.NumberInQueue               7.6264     .05908     5.0000     8.0000     8.0000    
+Seize Buffer5.Queue.NumberInQueue           .00454     (Insuf)    .00000     1.0000     .00000    
+Seize WC4.Queue.NumberInQueue               6.5183     .16755     .00000     8.0000     8.0000    
+Seize WC3.Queue.NumberInQueue               7.7304     .00543     6.0000     8.0000     8.0000    
+Seize Buffer3.Queue.NumberInQueue           .43772     .00866     .00000     1.0000     1.0000    
+Seize Buffer1.Queue.NumberInQueue           .40885     (Corr)     .00000     1.0000     .00000    
+Seize WC6.Queue.NumberInQueue               .08931     .00403     .00000     1.0000     .00000    
+Seize WC2.Queue.NumberInQueue               6.3956     .33727     .00000     8.0000     8.0000    
+Seize InputConveyor.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer8.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer4.Queue.NumberInQueue           .12450     .01767     .00000     1.0000     1.0000    
+Seize WC7.Queue.NumberInQueue               .03743     .00342     .00000     1.0000     .00000    
+Seize Buffer7.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize WC5.Queue.NumberInQueue               2.1444     .41406     .00000     8.0000     .00000    
+Access from WC7.Queue.NumberInQueue         .00915     3.9549E-04 .00000     1.0000     .00000    
+Access from WC6.Queue.NumberInQueue         .01006     3.7935E-04 .00000     1.0000     .00000    
+Access from WC5.Queue.NumberInQueue         .00962     3.7911E-04 .00000     1.0000     .00000    
+Access from WC4.Queue.NumberInQueue         .00905     4.4478E-04 .00000     2.0000     .00000    
+Access from WC3.Queue.NumberInQueue         .00895     3.9144E-04 .00000     1.0000     .00000    
+Access from WC2.Queue.NumberInQueue         .00911     (Corr)     .00000     1.0000     .00000    
+Access from WC1.Queue.NumberInQueue         .00928     3.4435E-04 .00000     1.0000     .00000    
+PalletLoop.Utilization                      .02654     3.8209E-04 .00000     .12500     .01389    
+PalletLoop.LengthAccumulated                .00000     (Insuf)    .00000     12.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Lost_A300                                       898  Infinite
+Lost_A100                                       833  Infinite
+Lost_A200                                      1226  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+WeeklyLostCost                              2415.4    
+LostParts                                   2957.0    
+A300.NumberIn                               2401.0    
+A300.NumberOut                              2400.0    
+A200.NumberIn                               3429.0    
+A200.NumberOut                              3432.0    
+A100.NumberIn                               1715.0    
+A100.NumberOut                              1712.0    
+Cell3.NumberSeized                          4584.0    
+Cell3.ScheduledUtilization                  1.0000    
+Cell2.NumberSeized                          4584.0    
+Cell2.ScheduledUtilization                  1.0000    
+Cell1.NumberSeized                          4587.0    
+Cell1.ScheduledUtilization                  1.0000    
+Cell7.NumberSeized                          4586.0    
+Cell7.ScheduledUtilization                  .52700    
+Cell6.NumberSeized                          4586.0    
+Cell6.ScheduledUtilization                  .75795    
+Cell5.NumberSeized                          4586.0    
+Cell5.ScheduledUtilization                  .93547    
+Cell4.NumberSeized                          4583.0    
+Cell4.ScheduledUtilization                  .99973    
+Cell8.NumberSeized                          4587.0    
+Cell8.ScheduledUtilization                  .82994    
+Buffer5.NumberSeized                        4583.0    
+Buffer5.ScheduledUtilization                .29903    
+Buffer4.NumberSeized                        4584.0    
+Buffer4.ScheduledUtilization                .84575    
+Buffer7.NumberSeized                        4586.0    
+Buffer7.ScheduledUtilization                .03579    
+Buffer6.NumberSeized                        4587.0    
+Buffer6.ScheduledUtilization                .04222    
+Buffer1.NumberSeized                        4587.0    
+Buffer1.ScheduledUtilization                .98429    
+Buffer3.NumberSeized                        4584.0    
+Buffer3.ScheduledUtilization                .99729    
+Buffer2.NumberSeized                        4587.0    
+Buffer2.ScheduledUtilization                .83048    
+Buffer8.NumberSeized                        4586.0    
+Buffer8.ScheduledUtilization                .03100    
+Pallet.NumberSeized                         4587.0    
+Pallet.ScheduledUtilization                 1.0000    
+InputConveyor.NumberSeized                  4588.0    
+InputConveyor.ScheduledUtilization          .98636    
+System.NumberOut                            4587.0    
+
+Beginning replication 9 of 10
+
+                                      ARENA Simulation Results
+                                              ResatEfe
+
+                                  Summary for Replication 9 of 10
+
+Project: Unnamed Project                                             Run execution date :11/26/2026
+Analyst: ResatEfe                                                    Model revision date:11/26/2026
+
+Replication ended at time      : 345600.0 Seconds 
+Statistics were cleared at time: 57600.0 Seconds (Thursday, November 26, 2026, 00:00:00)
+Statistics accumulated for time: 288000.0 Seconds
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TIS_A300                                    5060.2     57.030     4336.2     6125.2       1475    
+TIS_A200                                    5037.5     66.199     4293.7     6166.5       2153    
+TIS_A100                                    5045.0     61.747     4312.9     6110.1        882    
+A300.VATime                                 284.32     2.1413     232.76     595.99       1475    
+A300.NVATime                                119.81     1.6385     .00000     129.00       1475    
+A300.WaitTime                               4535.8     55.603     3777.6     5632.7       1475    
+A300.TranTime                               120.00     4.2670E-04 119.96     120.05       1475    
+A300.OtherTime                              .28380     .17892     .00000     37.568       1475    
+A300.TotalTime                              5060.2     57.030     4336.2     6125.2       1475    
+A200.VATime                                 271.90     1.5167     224.56     519.49       2153    
+A200.NVATime                                66.125     1.8661     .00000     96.000       2153    
+A200.WaitTime                               4579.0     65.757     3783.8     5751.2       2153    
+A200.TranTime                               120.00     (Corr)     119.96     120.05       2153    
+A200.OtherTime                              .38095     .12763     .00000     34.580       2153    
+A200.TotalTime                              5037.5     66.199     4293.7     6166.5       2153    
+A100.VATime                                 287.27     2.7708     235.01     520.00        882    
+A100.NVATime                                150.96     .79625     .00000     152.00        882    
+A100.WaitTime                               4486.4     61.205     3769.4     5500.3        882    
+A100.TranTime                               120.00     4.9947E-04 119.96     120.03        882    
+A100.OtherTime                              .26533     .17064     .00000     29.420        882    
+A100.TotalTime                              5045.0     61.747     4312.9     6110.1        882    
+Seize WC8.Queue.WaitingTime                 31.608     5.2469     .00000     399.53       4509    
+Seize Pallet.Queue.WaitingTime              2490.2     37.122     2044.9     3576.2       4510    
+Access from C8.Queue.WaitingTime            .54789     .01883     .00000     1.6333       4509    
+Seize Buffer6.Queue.WaitingTime             .00000     .00000     .00000     .00000       4509    
+Seize Buffer2.Queue.WaitingTime             5.3192     .88599     .00000     321.39       4509    
+Seize WC1.Queue.WaitingTime                 490.99     7.7192     333.66     950.97       4509    
+Seize Buffer5.Queue.WaitingTime             .12355     .10630     .00000     38.291       4509    
+Seize WC4.Queue.WaitingTime                 416.79     (Corr)     20.732     967.64       4509    
+Seize WC3.Queue.WaitingTime                 494.21     (Corr)     267.43     967.64       4510    
+Seize Buffer3.Queue.WaitingTime             28.570     (Corr)     .00000     352.54       4510    
+Seize Buffer1.Queue.WaitingTime             28.564     1.6518     .00000     347.90       4509    
+Seize WC6.Queue.WaitingTime                 5.2964     (Corr)     .00000     50.065       4509    
+Seize WC2.Queue.WaitingTime                 420.52     22.097     11.626     950.97       4510    
+Seize InputConveyor.Queue.WaitingTime       .00000     .00000     .00000     .00000       4510    
+Seize Buffer8.Queue.WaitingTime             .00000     .00000     .00000     .00000       4511    
+Seize Buffer4.Queue.WaitingTime             8.4889     (Corr)     .00000     338.55       4510    
+Seize WC7.Queue.WaitingTime                 2.2913     .20889     .00000     36.626       4511    
+Seize Buffer7.Queue.WaitingTime             .00000     .00000     .00000     .00000       4510    
+Seize WC5.Queue.WaitingTime                 118.23     18.016     .00000     488.66       4509    
+Access from WC7.Queue.WaitingTime           .54917     .01557     .00000     1.6328       4511    
+Access from WC6.Queue.WaitingTime           .61476     .01841     .00000     1.6333       4510    
+Access from WC5.Queue.WaitingTime           .59616     .01969     .00000     1.6326       4509    
+Access from WC4.Queue.WaitingTime           .58154     .01738     .00000     2.7166       4509    
+Access from WC3.Queue.WaitingTime           .55465     .01623     .00000     1.6333       4510    
+Access from WC2.Queue.WaitingTime           .56649     .01922     .00000     1.6333       4510    
+Access from WC1.Queue.WaitingTime           .55583     .01960     .00000     1.6333       4509    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ConvContent                                 39.459     .01585     37.000     40.000     40.000    
+A300.WIP                                    25.910     .60322     18.000     34.000     28.000    
+A200.WIP                                    37.633     .80940     28.000     50.000     34.000    
+A100.WIP                                    15.430     .74287     7.0000     23.000     17.000    
+Cell3.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell3.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell3.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell2.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell2.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell2.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell1.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell1.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell1.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell7.NumberBusy                            .51968     .00892     .00000     1.0000     .00000    
+Cell7.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell7.Utilization                           .51968     .00892     .00000     1.0000     .00000    
+Cell6.NumberBusy                            .74759     .01094     .00000     1.0000     .00000    
+Cell6.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell6.Utilization                           .74759     .01094     .00000     1.0000     .00000    
+Cell5.NumberBusy                            .92289     .01273     .00000     1.0000     1.0000    
+Cell5.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell5.Utilization                           .92289     .01273     .00000     1.0000     1.0000    
+Cell4.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell4.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell4.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell8.NumberBusy                            .86113     .02498     .00000     1.0000     1.0000    
+Cell8.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell8.Utilization                           .86113     .02498     .00000     1.0000     1.0000    
+Buffer5.NumberBusy                          2.0950     .30961     .00000     8.0000     1.0000    
+Buffer5.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer5.Utilization                         .26188     .03870     .00000     1.0000     .12500    
+Buffer4.NumberBusy                          6.7694     .18132     .00000     8.0000     8.0000    
+Buffer4.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer4.Utilization                         .84619     .02266     .00000     1.0000     1.0000    
+Buffer7.NumberBusy                          .28043     .00707     .00000     2.0000     .00000    
+Buffer7.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer7.Utilization                         .03505     8.8354E-04 .00000     .25000     .00000    
+Buffer6.NumberBusy                          .32710     (Corr)     .00000     2.0000     .00000    
+Buffer6.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer6.Utilization                         .04089     (Corr)     .00000     .25000     .00000    
+Buffer1.NumberBusy                          7.9299     (Corr)     6.0000     8.0000     8.0000    
+Buffer1.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer1.Utilization                         .99125     (Corr)     .75000     1.0000     1.0000    
+Buffer3.NumberBusy                          7.9811     .00272     7.0000     8.0000     8.0000    
+Buffer3.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer3.Utilization                         .99764     3.4050E-04 .87500     1.0000     1.0000    
+Buffer2.NumberBusy                          6.8270     .27286     .00000     8.0000     7.0000    
+Buffer2.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer2.Utilization                         .85338     .03411     .00000     1.0000     .87500    
+Buffer8.NumberBusy                          .24351     (Corr)     .00000     1.0000     1.0000    
+Buffer8.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer8.Utilization                         .03044     (Corr)     .00000     .12500     .12500    
+Pallet.NumberBusy                           40.000     (Insuf)    39.000     40.000     40.000    
+Pallet.NumberScheduled                      40.000     (Insuf)    40.000     40.000     40.000    
+Pallet.Utilization                          1.0000     (Insuf)    .97500     1.0000     1.0000    
+InputConveyor.NumberBusy                    39.459     .01585     37.000     40.000     40.000    
+InputConveyor.NumberScheduled               40.000     (Insuf)    40.000     40.000     40.000    
+InputConveyor.Utilization                   .98649     3.9617E-04 .92500     1.0000     1.0000    
+Seize WC8.Queue.NumberInQueue               .49501     .08571     .00000     4.0000     1.0000    
+Seize Pallet.Queue.NumberInQueue            38.964     .09018     35.000     40.000     39.000    
+Access from C8.Queue.NumberInQueue          .00858     (Corr)     .00000     1.0000     .00000    
+Seize Buffer6.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer2.Queue.NumberInQueue           .08328     .01270     .00000     1.0000     .00000    
+Seize WC1.Queue.NumberInQueue               7.6865     (Corr)     5.0000     8.0000     8.0000    
+Seize Buffer5.Queue.NumberInQueue           .00193     (Insuf)    .00000     1.0000     .00000    
+Seize WC4.Queue.NumberInQueue               6.5259     .18364     .00000     8.0000     7.0000    
+Seize WC3.Queue.NumberInQueue               7.7374     (Corr)     6.0000     8.0000     7.0000    
+Seize Buffer3.Queue.NumberInQueue           .44730     (Corr)     .00000     1.0000     .00000    
+Seize Buffer1.Queue.NumberInQueue           .44724     .02428     .00000     1.0000     1.0000    
+Seize WC6.Queue.NumberInQueue               .08292     .00527     .00000     2.0000     .00000    
+Seize WC2.Queue.NumberInQueue               6.5834     .27544     .00000     8.0000     7.0000    
+Seize InputConveyor.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer8.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer4.Queue.NumberInQueue           .13294     .01312     .00000     1.0000     .00000    
+Seize WC7.Queue.NumberInQueue               .03589     .00397     .00000     1.0000     .00000    
+Seize Buffer7.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize WC5.Queue.NumberInQueue               1.8511     .30654     .00000     8.0000     1.0000    
+Access from WC7.Queue.NumberInQueue         .00860     3.4634E-04 .00000     1.0000     .00000    
+Access from WC6.Queue.NumberInQueue         .00963     3.6205E-04 .00000     1.0000     .00000    
+Access from WC5.Queue.NumberInQueue         .00933     (Corr)     .00000     1.0000     .00000    
+Access from WC4.Queue.NumberInQueue         .00910     3.8929E-04 .00000     2.0000     .00000    
+Access from WC3.Queue.NumberInQueue         .00869     3.4464E-04 .00000     1.0000     .00000    
+Access from WC2.Queue.NumberInQueue         .00887     (Corr)     .00000     1.0000     .00000    
+Access from WC1.Queue.NumberInQueue         .00870     (Corr)     .00000     1.0000     .00000    
+PalletLoop.Utilization                      .02610     (Corr)     .00000     .12500     .04167    
+PalletLoop.LengthAccumulated                .00000     (Insuf)    .00000     14.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Lost_A300                                       927  Infinite
+Lost_A100                                       832  Infinite
+Lost_A200                                      1276  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+WeeklyLostCost                              2474.0    
+LostParts                                   3035.0    
+A300.NumberIn                               2401.0    
+A300.NumberOut                              2402.0    
+A200.NumberIn                               3429.0    
+A200.NumberOut                              3429.0    
+A100.NumberIn                               1715.0    
+A100.NumberOut                              1714.0    
+Cell3.NumberSeized                          4510.0    
+Cell3.ScheduledUtilization                  1.0000    
+Cell2.NumberSeized                          4510.0    
+Cell2.ScheduledUtilization                  1.0000    
+Cell1.NumberSeized                          4509.0    
+Cell1.ScheduledUtilization                  1.0000    
+Cell7.NumberSeized                          4511.0    
+Cell7.ScheduledUtilization                  .51968    
+Cell6.NumberSeized                          4509.0    
+Cell6.ScheduledUtilization                  .74759    
+Cell5.NumberSeized                          4509.0    
+Cell5.ScheduledUtilization                  .92289    
+Cell4.NumberSeized                          4509.0    
+Cell4.ScheduledUtilization                  1.0000    
+Cell8.NumberSeized                          4509.0    
+Cell8.ScheduledUtilization                  .86113    
+Buffer5.NumberSeized                        4509.0    
+Buffer5.ScheduledUtilization                .26188    
+Buffer4.NumberSeized                        4510.0    
+Buffer4.ScheduledUtilization                .84619    
+Buffer7.NumberSeized                        4510.0    
+Buffer7.ScheduledUtilization                .03505    
+Buffer6.NumberSeized                        4509.0    
+Buffer6.ScheduledUtilization                .04089    
+Buffer1.NumberSeized                        4509.0    
+Buffer1.ScheduledUtilization                .99125    
+Buffer3.NumberSeized                        4510.0    
+Buffer3.ScheduledUtilization                .99764    
+Buffer2.NumberSeized                        4509.0    
+Buffer2.ScheduledUtilization                .85338    
+Buffer8.NumberSeized                        4511.0    
+Buffer8.ScheduledUtilization                .03044    
+Pallet.NumberSeized                         4510.0    
+Pallet.ScheduledUtilization                 1.0000    
+InputConveyor.NumberSeized                  4510.0    
+InputConveyor.ScheduledUtilization          .98649    
+System.NumberOut                            4510.0    
+
+Beginning replication 10 of 10
+
+                                      ARENA Simulation Results
+                                              ResatEfe
+
+                                  Summary for Replication 10 of 10
+
+Project: Unnamed Project                                             Run execution date :11/26/2026
+Analyst: ResatEfe                                                    Model revision date:11/26/2026
+
+Replication ended at time      : 345600.0 Seconds 
+Statistics were cleared at time: 57600.0 Seconds (Thursday, November 26, 2026, 00:00:00)
+Statistics accumulated for time: 288000.0 Seconds
+Base Time Units: Seconds
+
+                                           TALLY VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Observations
+___________________________________________________________________________________________________
+
+TIS_A300                                    4980.5     70.515     4440.3     5835.5       1495    
+TIS_A200                                    4956.4     68.803     4401.4     5819.2       2178    
+TIS_A100                                    4963.7     74.234     4472.4     5812.8        914    
+A300.VATime                                 283.03     2.6754     232.41     629.77       1495    
+A300.NVATime                                119.16     1.4786     .00000     129.00       1495    
+A300.WaitTime                               4458.2     70.830     3818.8     5337.9       1495    
+A300.TranTime                               120.00     3.5036E-04 119.96     120.05       1495    
+A300.OtherTime                              .11501     .10139     .00000     39.536       1495    
+A300.TotalTime                              4980.5     70.515     4440.3     5835.5       1495    
+A200.VATime                                 270.64     1.6505     222.00     537.12       2178    
+A200.NVATime                                67.305     1.6633     .00000     96.000       2178    
+A200.WaitTime                               4497.9     67.851     3903.7     5351.9       2178    
+A200.TranTime                               120.00     3.0778E-04 119.96     120.05       2178    
+A200.OtherTime                              .50577     .13743     .00000     34.076       2178    
+A200.TotalTime                              4956.4     68.803     4401.4     5819.2       2178    
+A100.VATime                                 287.25     3.5996     234.51     574.97        914    
+A100.NVATime                                151.16     .71842     .00000     152.00        914    
+A100.WaitTime                               4404.8     73.310     3834.3     5283.8        914    
+A100.TranTime                               120.00     4.1894E-04 119.96     120.05        914    
+A100.OtherTime                              .48100     .22459     .00000     29.717        914    
+A100.TotalTime                              4963.7     74.234     4472.4     5812.8        914    
+Seize WC8.Queue.WaitingTime                 24.605     4.2041     .00000     384.70       4586    
+Seize Pallet.Queue.WaitingTime              2452.8     35.637     2112.3     3199.8       4587    
+Access from C8.Queue.WaitingTime            .54444     (Corr)     .00000     1.6333       4585    
+Seize Buffer6.Queue.WaitingTime             .00000     .00000     .00000     .00000       4586    
+Seize Buffer2.Queue.WaitingTime             4.1533     .98339     .00000     238.83       4585    
+Seize WC1.Queue.WaitingTime                 480.01     8.6352     291.00     874.30       4585    
+Seize Buffer5.Queue.WaitingTime             .04720     .06816     .00000     39.875       4589    
+Seize WC4.Queue.WaitingTime                 396.26     19.707     27.669     925.32       4589    
+Seize WC3.Queue.WaitingTime                 485.23     8.1784     267.38     936.19       4589    
+Seize Buffer3.Queue.WaitingTime             27.434     1.0470     .00000     322.44       4589    
+Seize Buffer1.Queue.WaitingTime             25.222     1.9969     .00000     275.83       4585    
+Seize WC6.Queue.WaitingTime                 5.4288     .37228     .00000     49.197       4587    
+Seize WC2.Queue.WaitingTime                 419.60     18.791     151.94     873.97       4589    
+Seize InputConveyor.Queue.WaitingTime       .00000     .00000     .00000     .00000       4587    
+Seize Buffer8.Queue.WaitingTime             .00000     .00000     .00000     .00000       4586    
+Seize Buffer4.Queue.WaitingTime             7.1723     1.1391     .00000     307.33       4589    
+Seize WC7.Queue.WaitingTime                 2.1853     .16250     .00000     37.040       4587    
+Seize Buffer7.Queue.WaitingTime             .00000     .00000     .00000     .00000       4587    
+Seize WC5.Queue.WaitingTime                 130.67     21.615     .00000     479.04       4586    
+Access from WC7.Queue.WaitingTime           .58502     .02028     .00000     1.6330       4586    
+Access from WC6.Queue.WaitingTime           .63588     .01636     .00000     1.6333       4587    
+Access from WC5.Queue.WaitingTime           .62216     .02340     .00000     1.6327       4586    
+Access from WC4.Queue.WaitingTime           .57360     .01666     .00000     2.2434       4589    
+Access from WC3.Queue.WaitingTime           .57992     .01748     .00000     1.6333       4589    
+Access from WC2.Queue.WaitingTime           .58471     .01875     .00000     1.6333       4589    
+Access from WC1.Queue.WaitingTime           .56297     .01841     .00000     1.6333       4585    
+
+                                     DISCRETE-CHANGE VARIABLES
+
+Identifier                                  Average   Half Width  Minimum    Maximum   Final Value
+___________________________________________________________________________________________________
+
+ConvContent                                 39.443     .01578     37.000     40.000     40.000    
+A300.WIP                                    25.851     .53275     18.000     34.000     28.000    
+A200.WIP                                    37.398     .72759     29.000     45.000     32.000    
+A100.WIP                                    15.810     .81788     6.0000     24.000     19.000    
+Cell3.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell3.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell3.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell2.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell2.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell2.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell1.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell1.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell1.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell7.NumberBusy                            .52729     .00801     .00000     1.0000     1.0000    
+Cell7.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell7.Utilization                           .52729     .00801     .00000     1.0000     1.0000    
+Cell6.NumberBusy                            .76146     .01207     .00000     1.0000     1.0000    
+Cell6.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell6.Utilization                           .76146     .01207     .00000     1.0000     1.0000    
+Cell5.NumberBusy                            .93947     .01428     .00000     1.0000     1.0000    
+Cell5.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell5.Utilization                           .93947     .01428     .00000     1.0000     1.0000    
+Cell4.NumberBusy                            1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell4.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell4.Utilization                           1.0000     (Insuf)    .00000     1.0000     1.0000    
+Cell8.NumberBusy                            .82629     .02556     .00000     1.0000     1.0000    
+Cell8.NumberScheduled                       1.0000     (Insuf)    1.0000     1.0000     1.0000    
+Cell8.Utilization                           .82629     .02556     .00000     1.0000     1.0000    
+Buffer5.NumberBusy                          2.3295     .33487     .00000     8.0000     3.0000    
+Buffer5.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer5.Utilization                         .29119     .04186     .00000     1.0000     .37500    
+Buffer4.NumberBusy                          6.5603     .23263     .00000     8.0000     8.0000    
+Buffer4.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer4.Utilization                         .82004     .02908     .00000     1.0000     1.0000    
+Buffer7.NumberBusy                          .28384     .00592     .00000     2.0000     .00000    
+Buffer7.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer7.Utilization                         .03548     7.4049E-04 .00000     .25000     .00000    
+Buffer6.NumberBusy                          .33516     .00821     .00000     2.0000     .00000    
+Buffer6.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer6.Utilization                         .04190     .00103     .00000     .25000     .00000    
+Buffer1.NumberBusy                          7.8895     .03790     5.0000     8.0000     8.0000    
+Buffer1.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer1.Utilization                         .98619     .00474     .62500     1.0000     1.0000    
+Buffer3.NumberBusy                          7.9780     .00226     6.0000     8.0000     8.0000    
+Buffer3.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer3.Utilization                         .99725     2.8217E-04 .75000     1.0000     1.0000    
+Buffer2.NumberBusy                          6.9289     .19211     2.0000     8.0000     4.0000    
+Buffer2.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer2.Utilization                         .86612     .02401     .25000     1.0000     .50000    
+Buffer8.NumberBusy                          .24818     .00387     .00000     1.0000     .00000    
+Buffer8.NumberScheduled                     8.0000     (Insuf)    8.0000     8.0000     8.0000    
+Buffer8.Utilization                         .03102     4.8384E-04 .00000     .12500     .00000    
+Pallet.NumberBusy                           40.000     (Insuf)    39.000     40.000     40.000    
+Pallet.NumberScheduled                      40.000     (Insuf)    40.000     40.000     40.000    
+Pallet.Utilization                          1.0000     (Insuf)    .97500     1.0000     1.0000    
+InputConveyor.NumberBusy                    39.443     .01578     37.000     40.000     40.000    
+InputConveyor.NumberScheduled               40.000     (Insuf)    40.000     40.000     40.000    
+InputConveyor.Utilization                   .98608     3.9460E-04 .92500     1.0000     1.0000    
+Seize WC8.Queue.NumberInQueue               .39191     .05668     .00000     4.0000     1.0000    
+Seize Pallet.Queue.NumberInQueue            39.051     .05663     35.000     40.000     39.000    
+Access from C8.Queue.NumberInQueue          .00867     2.8270E-04 .00000     1.0000     .00000    
+Seize Buffer6.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer2.Queue.NumberInQueue           .06612     .01372     .00000     1.0000     .00000    
+Seize WC1.Queue.NumberInQueue               7.6420     .03875     5.0000     8.0000     8.0000    
+Seize Buffer5.Queue.NumberInQueue           7.5204E-04 (Insuf)    .00000     1.0000     .00000    
+Seize WC4.Queue.NumberInQueue               6.3121     .23459     .00000     8.0000     7.0000    
+Seize WC3.Queue.NumberInQueue               7.7297     .00505     6.0000     8.0000     7.0000    
+Seize Buffer3.Queue.NumberInQueue           .43710     .00873     .00000     1.0000     .00000    
+Seize Buffer1.Queue.NumberInQueue           .40155     .02763     .00000     1.0000     .00000    
+Seize WC6.Queue.NumberInQueue               .08640     .00549     .00000     2.0000     .00000    
+Seize WC2.Queue.NumberInQueue               6.6812     .19441     2.0000     8.0000     4.0000    
+Seize InputConveyor.Queue.NumberInQueue     .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer8.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize Buffer4.Queue.NumberInQueue           .11428     .01537     .00000     1.0000     .00000    
+Seize WC7.Queue.NumberInQueue               .03481     .00301     .00000     2.0000     .00000    
+Seize Buffer7.Queue.NumberInQueue           .00000     (Insuf)    .00000     .00000     .00000    
+Seize WC5.Queue.NumberInQueue               2.0814     .33238     .00000     8.0000     2.0000    
+Access from WC7.Queue.NumberInQueue         .00932     4.2130E-04 .00000     1.0000     .00000    
+Access from WC6.Queue.NumberInQueue         .01013     3.7345E-04 .00000     1.0000     .00000    
+Access from WC5.Queue.NumberInQueue         .00991     4.4971E-04 .00000     1.0000     .00000    
+Access from WC4.Queue.NumberInQueue         .00914     3.6496E-04 .00000     2.0000     .00000    
+Access from WC3.Queue.NumberInQueue         .00924     3.3084E-04 .00000     1.0000     .00000    
+Access from WC2.Queue.NumberInQueue         .00932     3.3759E-04 .00000     1.0000     .00000    
+Access from WC1.Queue.NumberInQueue         .00896     3.2641E-04 .00000     1.0000     .00000    
+PalletLoop.Utilization                      .02654     3.8955E-04 .00000     .12500     .04167    
+PalletLoop.LengthAccumulated                .00000     (Insuf)    .00000     14.000     .00000    
+
+                                             COUNTERS
+
+Identifier                                    Count   Limit
+_____________________________________________________________
+
+Lost_A300                                       905  Infinite
+Lost_A100                                       793  Infinite
+Lost_A200                                      1260  Infinite
+
+                                             OUTPUTS
+
+Identifier                                   Value
+_____________________________________________________________
+
+WeeklyLostCost                              2407.0    
+LostParts                                   2958.0    
+A300.NumberIn                               2401.0    
+A300.NumberOut                              2400.0    
+A200.NumberIn                               3429.0    
+A200.NumberOut                              3438.0    
+A100.NumberIn                               1715.0    
+A100.NumberOut                              1707.0    
+Cell3.NumberSeized                          4589.0    
+Cell3.ScheduledUtilization                  1.0000    
+Cell2.NumberSeized                          4589.0    
+Cell2.ScheduledUtilization                  1.0000    
+Cell1.NumberSeized                          4585.0    
+Cell1.ScheduledUtilization                  1.0000    
+Cell7.NumberSeized                          4587.0    
+Cell7.ScheduledUtilization                  .52729    
+Cell6.NumberSeized                          4587.0    
+Cell6.ScheduledUtilization                  .76146    
+Cell5.NumberSeized                          4586.0    
+Cell5.ScheduledUtilization                  .93947    
+Cell4.NumberSeized                          4589.0    
+Cell4.ScheduledUtilization                  1.0000    
+Cell8.NumberSeized                          4586.0    
+Cell8.ScheduledUtilization                  .82629    
+Buffer5.NumberSeized                        4589.0    
+Buffer5.ScheduledUtilization                .29119    
+Buffer4.NumberSeized                        4589.0    
+Buffer4.ScheduledUtilization                .82004    
+Buffer7.NumberSeized                        4587.0    
+Buffer7.ScheduledUtilization                .03548    
+Buffer6.NumberSeized                        4586.0    
+Buffer6.ScheduledUtilization                .04190    
+Buffer1.NumberSeized                        4585.0    
+Buffer1.ScheduledUtilization                .98619    
+Buffer3.NumberSeized                        4589.0    
+Buffer3.ScheduledUtilization                .99725    
+Buffer2.NumberSeized                        4585.0    
+Buffer2.ScheduledUtilization                .86612    
+Buffer8.NumberSeized                        4586.0    
+Buffer8.ScheduledUtilization                .03102    
+Pallet.NumberSeized                         4587.0    
+Pallet.ScheduledUtilization                 1.0000    
+InputConveyor.NumberSeized                  4587.0    
+InputConveyor.ScheduledUtilization          .98608    
+System.NumberOut                            4587.0    
+
+
+                                      ARENA Simulation Results
+                                              ResatEfe
+
+                                 Output Summary for 10 Replications
+
+Project: Unnamed Project                                             Run execution date :11/26/2026
+Analyst: ResatEfe                                                    Model revision date:11/26/2026
+
+
+                                             OUTPUTS
+
+Identifier                                 Average    Half-width Minimum    Maximum # Replications
+___________________________________________________________________________________________________
+
+WeeklyLostCost                              2453.4     18.760     2407.0     2482.3     10
+LostParts                                   3009.0     23.680     2957.0     3053.0     10
+A300.NumberIn                               2401.0     .00000     2401.0     2401.0     10
+A300.NumberOut                              2399.3     1.4717     2396.0     2402.0     10
+A200.NumberIn                               3429.0     .00000     3429.0     3429.0     10
+A200.NumberOut                              3430.3     2.1604     3428.0     3438.0     10
+A100.NumberIn                               1715.0     .00000     1715.0     1715.0     10
+A100.NumberOut                              1714.0     2.1326     1707.0     1718.0     10
+Cell3.NumberSeized                          4534.9     23.794     4491.0     4589.0     10
+Cell3.ScheduledUtilization                  1.0000     .00000     1.0000     1.0000     10
+Cell2.NumberSeized                          4534.9     23.794     4491.0     4589.0     10
+Cell2.ScheduledUtilization                  1.0000     .00000     1.0000     1.0000     10
+Cell1.NumberSeized                          4534.6     23.695     4491.0     4587.0     10
+Cell1.ScheduledUtilization                  1.0000     .00000     1.0000     1.0000     10
+Cell7.NumberSeized                          4534.9     23.518     4491.0     4587.0     10
+Cell7.ScheduledUtilization                  .52107     .00280     .51623     .52729     10
+Cell6.NumberSeized                          4534.8     23.757     4490.0     4587.0     10
+Cell6.ScheduledUtilization                  .75156     .00467     .74123     .76146     10
+Cell5.NumberSeized                          4534.4     23.628     4491.0     4586.0     10
+Cell5.ScheduledUtilization                  .92746     .00514     .91552     .93947     10
+Cell4.NumberSeized                          4534.7     23.881     4491.0     4589.0     10
+Cell4.ScheduledUtilization                  .99994     6.9321E-05 .99973     1.0000     10
+Cell8.NumberSeized                          4534.8     23.788     4491.0     4587.0     10
+Cell8.ScheduledUtilization                  .83823     .00977     .82534     .86138     10
+Buffer5.NumberSeized                        4534.7     23.881     4491.0     4589.0     10
+Buffer5.ScheduledUtilization                .27406     .01802     .23574     .29903     10
+Buffer4.NumberSeized                        4534.9     23.794     4491.0     4589.0     10
+Buffer4.ScheduledUtilization                .84530     .00914     .82004     .86714     10
+Buffer7.NumberSeized                        4534.7     23.738     4490.0     4587.0     10
+Buffer7.ScheduledUtilization                .03512     2.8542E-04 .03461     .03579     10
+Buffer6.NumberSeized                        4534.5     23.753     4491.0     4587.0     10
+Buffer6.ScheduledUtilization                .04123     4.6511E-04 .03987     .04222     10
+Buffer1.NumberSeized                        4534.6     23.695     4491.0     4587.0     10
+Buffer1.ScheduledUtilization                .98744     .00208     .98334     .99199     10
+Buffer3.NumberSeized                        4534.9     23.794     4491.0     4589.0     10
+Buffer3.ScheduledUtilization                .99745     1.4504E-04 .99719     .99779     10
+Buffer2.NumberSeized                        4534.6     23.695     4491.0     4587.0     10
+Buffer2.ScheduledUtilization                .85588     .01259     .83048     .88149     10
+Buffer8.NumberSeized                        4534.8     23.453     4491.0     4586.0     10
+Buffer8.ScheduledUtilization                .03064     1.6873E-04 .03035     .03102     10
+Pallet.NumberSeized                         4534.6     23.796     4490.0     4587.0     10
+Pallet.ScheduledUtilization                 1.0000     .00000     1.0000     1.0000     10
+InputConveyor.NumberSeized                  4536.0     23.680     4492.0     4588.0     10
+InputConveyor.ScheduledUtilization          .98640     1.1666E-04 .98608     .98658     10
+System.NumberOut                            4534.6     23.796     4490.0     4587.0     10
+
+Simulation run time: 4.70 minutes.
+Simulation run complete.

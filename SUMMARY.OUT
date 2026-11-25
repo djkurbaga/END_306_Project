@@ -1,0 +1,17 @@
+Fit All
+
+Document:  C:\Users\ResatEfe\Desktop\End 306\Proje\END_306_Project\WS4_A300.txt
+Data File: C:\Users\ResatEfe\Desktop\End 306\Proje\END_306_Project\WS4_A300.txt
+
+
+Function       Sq Error
+-----------------------
+Gamma          0.00202
+Weibull        0.00225
+Erlang         0.00284
+Exponential    0.00284
+Beta           0.0037
+Lognormal      0.0157
+Normal         0.0498
+Triangular     0.0881
+Uniform        0.141

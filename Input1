@@ -1,0 +1,144 @@
+
+	Distribution Summary
+
+Distribution:	Gamma        
+Expression:	GAMM(40.7, 1.03)
+Square Error:	0.002018
+
+Chi Square Test
+  Number of intervals	= 8
+  Degrees of freedom 	= 5
+  Test Statistic     	= 4.65
+  Corresponding p-value	= 0.467
+
+Kolmogorov-Smirnov Test
+  Test Statistic	= 0.0409
+  Corresponding p-value	> 0.15
+
+	Data Summary
+
+Number of Data Points	= 306
+Min Data Value       	= 0.1
+Max Data Value       	= 295
+Sample Mean          	= 41.8
+Sample Std Dev       	= 41.7
+
+	Histogram Summary
+
+Histogram Range    	= 0 to 296
+Number of Intervals	= 17
+
+
+==================================================================
+Int.   No. of               Probability           Cumulative      
+No.    Data Pts.   x        Density               Distribution    
+------------------------------------------------------------------
+                            Data   Function       Data   Function   
+   0    94       17.4      0.307      0.324      0.307      0.324
+   1    73       34.8      0.239      0.224      0.546      0.547
+   2    56       52.2      0.183      0.148      0.729      0.695
+   3    29       69.6     0.0948     0.0973      0.824      0.793
+   4    16       87.1     0.0523     0.0639      0.876      0.857
+   5    13       104.     0.0425     0.0419      0.918      0.898
+   6     8       122.     0.0261     0.0274      0.944      0.926
+   7     8       139.     0.0261     0.0179      0.971      0.944
+   8     3       157.    0.00980     0.0117      0.980      0.956
+   9     2       174.    0.00654    0.00768      0.987      0.963
+  10     0       192.      0.000    0.00502      0.987      0.968
+  11     0       209.      0.000    0.00328      0.987      0.971
+  12     2       226.    0.00654    0.00214      0.993      0.974
+  13     1       244.    0.00327    0.00140      0.997      0.975
+  14     0       261.      0.000   0.000914      0.997      0.976
+  15     0       279.      0.000   0.000597      0.997      0.977
+  16     1       296.    0.00327   0.000390       1.00      0.977
+
+
+=================================================================
+
+
+Data File: C:\Users\ResatEfe\Desktop\End 306\Proje\END_306_Project\WS4_A100.txt
+
+
+Function       Sq Error
+-----------------------
+Gamma          0.00202
+Weibull        0.00225
+Erlang         0.00283
+Exponential    0.00283
+Beta           0.00378
+Lognormal      0.0157
+Normal         0.0498
+Triangular     0.0881
+Uniform        0.141
+
+	Distribution Summary
+
+Distribution:	Gamma        
+Expression:	GAMM(40.7, 1.03)
+Square Error:	0.002018
+
+Chi Square Test
+  Number of intervals	= 8
+  Degrees of freedom 	= 5
+  Test Statistic     	= 4.65
+  Corresponding p-value	= 0.467
+
+Kolmogorov-Smirnov Test
+  Test Statistic	= 0.0409
+  Corresponding p-value	> 0.15
+
+	Data Summary
+
+Number of Data Points	= 306
+Min Data Value       	= 0.1
+Max Data Value       	= 295
+Sample Mean          	= 41.8
+Sample Std Dev       	= 41.7
+
+	Histogram Summary
+
+Histogram Range    	= 0 to 296
+Number of Intervals	= 17
+
+
+==================================================================
+Int.   No. of               Probability           Cumulative      
+No.    Data Pts.   x        Density               Distribution    
+------------------------------------------------------------------
+                            Data   Function       Data   Function   
+   0    94       17.4      0.307      0.324      0.307      0.324
+   1    73       34.8      0.239      0.224      0.546      0.547
+   2    56       52.2      0.183      0.148      0.729      0.695
+   3    29       69.6     0.0948     0.0973      0.824      0.793
+   4    16       87.1     0.0523     0.0639      0.876      0.857
+   5    13       104.     0.0425     0.0419      0.918      0.898
+   6     8       122.     0.0261     0.0274      0.944      0.926
+   7     8       139.     0.0261     0.0179      0.971      0.944
+   8     3       157.    0.00980     0.0117      0.980      0.956
+   9     2       174.    0.00654    0.00768      0.987      0.963
+  10     0       192.      0.000    0.00502      0.987      0.968
+  11     0       209.      0.000    0.00328      0.987      0.971
+  12     2       226.    0.00654    0.00214      0.993      0.974
+  13     1       244.    0.00327    0.00140      0.997      0.975
+  14     0       261.      0.000   0.000914      0.997      0.976
+  15     0       279.      0.000   0.000597      0.997      0.977
+  16     1       296.    0.00327   0.000390       1.00      0.977
+
+
+=================================================================
+
+
+Data File: C:\Users\ResatEfe\Desktop\End 306\Proje\END_306_Project\WS4_A100.txt
+
+
+Function       Sq Error
+-----------------------
+Gamma          0.00202
+Weibull        0.00225
+Erlang         0.00283
+Exponential    0.00283
+Beta           0.00378
+Lognormal      0.0157
+Normal         0.0498
+Triangular     0.0881
+Uniform        0.141

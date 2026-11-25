@@ -1,0 +1,45 @@
+[RESOURCES]
+Cell3
+Cell2
+Cell1
+Cell7
+Cell6
+Cell5
+Cell4
+Cell8
+Buffer5
+Buffer4
+Buffer7
+Buffer6
+Buffer1
+Buffer3
+Buffer2
+Buffer8
+Pallet
+InputConveyor
+[VARIABLES]
+Decide Setup Check WC6.NumberOut False
+Decide Setup Check WC5.NumberOut False
+Decide Setup Check WC4.NumberOut False
+Decide Setup Check WC3.NumberOut False
+Decide Setup Check WC1.NumberOut False
+JamP
+TotalLostCost
+Conveyor_full.NumberOut True
+LastType
+Jam_Probability.NumberOut False
+SetupT
+Jam_Probability.NumberOut True
+Create A300.NumberOut
+Create A200.NumberOut
+Create A100.NumberOut
+Dispose Lost.NumberOut
+Decide Returning.NumberOut True
+Decide Returning.NumberOut False
+Conveyor_full.NumberOut False
+Finished.NumberOut
+Decide Setup Check WC6.NumberOut True
+Decide Setup Check WC5.NumberOut True
+Decide Setup Check WC4.NumberOut True
+Decide Setup Check WC3.NumberOut True
+Decide Setup Check WC1.NumberOut True

@@ -1,0 +1,53 @@
+
+	Distribution Summary
+
+Distribution:	Gamma        
+Expression:	2 + GAMM(44.7, 1.03)
+Square Error:	0.002015
+
+Chi Square Test
+  Number of intervals	= 8
+  Degrees of freedom 	= 5
+  Test Statistic     	= 4.64
+  Corresponding p-value	= 0.469
+
+Kolmogorov-Smirnov Test
+  Test Statistic	= 0.0409
+  Corresponding p-value	> 0.15
+
+	Data Summary
+
+Number of Data Points	= 306
+Min Data Value       	= 2.11
+Max Data Value       	= 326
+Sample Mean          	= 47.9
+Sample Std Dev       	= 45.8
+
+	Histogram Summary
+
+Histogram Range    	= 2 to 327
+Number of Intervals	= 17
+
+
+==================================================================
+Int.   No. of               Probability           Cumulative      
+No.    Data Pts.   x        Density               Distribution    
+------------------------------------------------------------------
+                            Data   Function       Data   Function   
+   0    94       21.1      0.307      0.324      0.307      0.324
+   1    73       40.2      0.239      0.224      0.546      0.548
+   2    56       59.4      0.183      0.148      0.729      0.696
+   3    29       78.5     0.0948     0.0973      0.824      0.793
+   4    16       97.6     0.0523     0.0639      0.876      0.857
+   5    13       117.     0.0425     0.0419      0.918      0.899
+   6     8       136.     0.0261     0.0274      0.944      0.926
+   7     8       155.     0.0261     0.0179      0.971      0.944
+   8     3       174.    0.00980     0.0117      0.980      0.956
+   9     2       193.    0.00654    0.00766      0.987      0.963
+  10     0       212.      0.000    0.00501      0.987      0.968
+  11     0       231.      0.000    0.00327      0.987      0.972
+  12     2       251.    0.00654    0.00214      0.993      0.974
+  13     1       270.    0.00327    0.00140      0.997      0.975
+  14     0       289.      0.000   0.000912      0.997      0.976
+  15     0       308.      0.000   0.000595      0.997      0.977
+  16     1       327.    0.00327   0.000389       1.00      0.977
